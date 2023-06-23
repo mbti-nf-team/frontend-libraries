@@ -1,12 +1,25 @@
 {
   "name": "frontend-libraries",
+  "private": true,
   "version": "1.0.0",
   "description": "내가 사용하려고 만든 프론트엔드 라이브러리",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
-  "author": "",
-  "license": "ISC",
-  "packageManager": "yarn@3.6.0"
+  "devDependencies": {
+    "@turbo/gen": "^1.9.7",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "author": "Harang",
+  "license": "MIT"
 }
