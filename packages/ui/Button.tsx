@@ -1,7 +1,6 @@
-"use client";
+'use client';
 
-import * as React from "react";
-
-export const Button = () => {
-  return <button onClick={() => alert("boop")}>Boop</button>;
-};
+export function Button() {
+  // eslint-disable-next-line react/button-has-type
+  return <button onClick={() => alert('boop')}>Boop</button>;
+}
