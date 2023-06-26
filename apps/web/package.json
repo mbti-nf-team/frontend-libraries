@@ -12,8 +12,8 @@
     "next": "^13.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*",
-    "react-libraries": "*"
+    "react-libraries": "*",
+    "ui": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
