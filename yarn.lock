@@ -7835,24 +7835,6 @@ turbo@latest:
   languageName: node
   linkType: hard
 
-"web@workspace:apps/web":
-  version: 0.0.0-use.local
-  resolution: "web@workspace:apps/web"
-  dependencies:
-    "@types/node": ^17.0.12
-    "@types/react": ^18.0.22
-    "@types/react-dom": ^18.0.7
-    eslint-config-custom: "*"
-    next: ^13.4.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-libraries: "*"
-    tsconfig: "*"
-    typescript: ^4.5.3
-    ui: "*"
-  languageName: unknown
-  linkType: soft
-
 "webidl-conversions@npm:^7.0.0":
   version: 7.0.0
   resolution: "webidl-conversions@npm:7.0.0"
