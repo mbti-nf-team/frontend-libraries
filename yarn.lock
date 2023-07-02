@@ -916,7 +916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nft-team/react@0.0.3, @nft-team/react@workspace:packages/react":
+"@nft-team/react@*, @nft-team/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@nft-team/react@workspace:packages/react"
   dependencies:
@@ -2706,7 +2706,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:apps/docs"
   dependencies:
-    "@nft-team/react": 0.0.3
+    "@nft-team/react": "*"
     "@types/node": ^17.0.12
     "@types/react": ^18.0.22
     "@types/react-dom": ^18.0.7

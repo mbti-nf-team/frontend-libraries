@@ -55,6 +55,9 @@ module.exports = {
         ['^.+\\.s?css$'],
       ],
     }],
+    'react/jsx-no-useless-fragment': ['error', {
+      allowExpressions: true,
+    }],
     'simple-import-sort/exports': 'error',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': ['warn', {

@@ -20,9 +20,7 @@ module.exports = {
     },
     {
       files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
-      extends: ['plugin:testing-library/react', 'plugin:jest/recommended'],
       rules: {
-        'jest/no-identical-title': 'off',
         'react-hooks/rules-of-hooks': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
       },
