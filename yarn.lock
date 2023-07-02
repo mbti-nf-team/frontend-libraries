@@ -916,6 +916,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nft-team/react@*, @nft-team/react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@nft-team/react@workspace:packages/react"
+  dependencies:
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@types/react": ^18.2.0
+    "@types/react-dom": ^18.2.0
+    "@types/testing-library__jest-dom": ^5.14.6
+    eslint: ^7.32.0
+    eslint-config-custom: "*"
+    react: ^18.2.0
+    tsconfig: "*"
+    typescript: ^4.5.2
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -2686,6 +2706,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:apps/docs"
   dependencies:
+    "@nft-team/react": "*"
     "@types/node": ^17.0.12
     "@types/react": ^18.0.22
     "@types/react-dom": ^18.0.7
@@ -2693,7 +2714,6 @@ __metadata:
     next: ^13.4.1
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-libraries: "*"
     tsconfig: "*"
     typescript: ^4.5.3
     ui: "*"
@@ -3626,8 +3646,10 @@ __metadata:
     "@types/jest-plugin-context": ^2.9.5
     eslint: ^7.32.0
     eslint-config-custom: "*"
+    given2: ^2.1.7
     jest: ^29.5.0
     jest-environment-jsdom: ^29.5.0
+    jest-plugin-context: ^2.9.0
     react-test-renderer: ^18.2.0
     turbo: latest
   languageName: unknown
@@ -3793,6 +3815,13 @@ __metadata:
   dependencies:
     resolve-pkg-maps: ^1.0.0
   checksum: fd2589a50e21543cf416285e5c4ac605359f49209b6c2e66bb8698fac907356e060de0a681e40881f00182b6f19771377411a88adcc78fd3954732ff54f4a54d
+  languageName: node
+  linkType: hard
+
+"given2@npm:^2.1.7":
+  version: 2.1.7
+  resolution: "given2@npm:2.1.7"
+  checksum: 42ca68f48d2662c0ffc7eba0f9348834f86632b641f5c4c7a318ad4d6139a124f5f27fd842b8d5c66b5fcceba0d79e2b1d23933042606ed71500dccbb99efcd4
   languageName: node
   linkType: hard
 
@@ -4933,6 +4962,15 @@ __metadata:
     "@types/node": "*"
     jest-util: ^29.5.0
   checksum: 2a9cf07509948fa8608898c445f04fe4dd6e2049ff431e5531eee028c808d3ba3c67f226ac87b0cf383feaa1055776900d197c895e89783016886ac17a4ff10c
+  languageName: node
+  linkType: hard
+
+"jest-plugin-context@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "jest-plugin-context@npm:2.9.0"
+  peerDependencies:
+    jest: "*"
+  checksum: 508ff501f755a34adbd97abf38812b6a7feffeebd524d0f476b7f90624fac1ae9e4d1fc0f06bac765513e9634666823d9ec63067d7bbe38bd892303d52ed3a2a
   languageName: node
   linkType: hard
 
@@ -6474,26 +6512,6 @@ __metadata:
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
   languageName: node
   linkType: hard
-
-"react-libraries@*, react-libraries@workspace:packages/react":
-  version: 0.0.0-use.local
-  resolution: "react-libraries@workspace:packages/react"
-  dependencies:
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^14.0.0
-    "@types/react": ^18.2.0
-    "@types/react-dom": ^18.2.0
-    "@types/testing-library__jest-dom": ^5.14.6
-    eslint: ^7.32.0
-    eslint-config-custom: "*"
-    react: ^18.2.0
-    tsconfig: "*"
-    typescript: ^4.5.2
-  peerDependencies:
-    react: "*"
-    react-dom: "*"
-  languageName: unknown
-  linkType: soft
 
 "react-shallow-renderer@npm:^16.15.0":
   version: 16.15.0
