@@ -23,7 +23,7 @@
     "@types/react-dom": "^18.2.0",
     "@types/react-test-renderer": "^18",
     "@types/testing-library__jest-dom": "^5.14.6",
-    "eslint": "^7.32.0",
+    "eslint": "^8.44.0",
     "eslint-config-custom": "*",
     "given2": "^2.1.7",
     "identity-obj-proxy": "^3.0.0",
@@ -36,8 +36,8 @@
     "typescript": "^4.5.2"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "publishConfig": {
     "access": "public"
