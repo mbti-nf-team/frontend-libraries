@@ -2868,7 +2868,6 @@ __metadata:
     react-dom: ^18.2.0
     tsconfig: "*"
     typescript: ^4.5.3
-    ui: "*"
   languageName: unknown
   linkType: soft
 
@@ -7768,20 +7767,6 @@ __metadata:
   checksum: 7b3897df38b6fc7d7d9f4dcd658599d81aa2b1fb0d074829dd4e5290f7318dbca1f4af2f45acb833b95b1fe0ed4698662ab61b87e94328eb4c0a0d3435baf924
   languageName: node
   linkType: hard
-
-"ui@*, ui@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "ui@workspace:packages/ui"
-  dependencies:
-    "@types/react": ^18.2.0
-    "@types/react-dom": ^18.2.0
-    eslint: ^8.44.0
-    eslint-config-custom: "*"
-    react: ^18.2.0
-    tsconfig: "*"
-    typescript: ^4.5.2
-  languageName: unknown
-  linkType: soft
 
 "unbox-primitive@npm:^1.0.2":
   version: 1.0.2
