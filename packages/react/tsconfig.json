@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/react-library.json",
+  "extends": "@nft-team/tsconfig/react-library.json",
   "include": [".", "@types"],
   "exclude": ["dist", "build", "node_modules"]
 }
