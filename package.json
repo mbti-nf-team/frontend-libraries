@@ -9,9 +9,9 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
+    "@nft-team/eslint-config": "0.0.4",
     "@turbo/gen": "^1.10.7",
     "eslint": "^8.44.0",
-    "eslint-config-custom": "*",
     "turbo": "^1.10.7"
   },
   "workspaces": [

@@ -9,7 +9,7 @@ module.exports = {
     'node_modules/',
     'public/',
   ],
-  extends: ['custom'],
+  extends: ['@nft-team/eslint-config'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
