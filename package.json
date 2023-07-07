@@ -1,12 +1,15 @@
 {
   "name": "frontend-libraries",
-  "private": true,
   "version": "1.0.0",
   "description": "내가 사용하려고 만든 프론트엔드 라이브러리",
   "scripts": {
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
   },
   "devDependencies": {
     "@nft-team/eslint-config": "0.0.4",
