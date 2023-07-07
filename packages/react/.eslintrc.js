@@ -8,6 +8,7 @@ module.exports = {
   ignorePatterns: [
     'node_modules/',
     'public/',
+    'dist/',
   ],
   extends: ['@nft-team/eslint-config'],
   overrides: [
