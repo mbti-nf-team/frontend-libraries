@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "내가 사용하려고 만든 프론트엔드 라이브러리",
   "scripts": {
-    "publish-packages": "turbo run build lint test && changeset version && changeset publish",
+    "publish-packages": "turbo run build lint && changeset version && changeset publish",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint"

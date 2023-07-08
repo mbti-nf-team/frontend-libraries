@@ -9,6 +9,7 @@ module.exports = {
     'node_modules/',
     'public/',
     'dist/',
+    'coverage/',
   ],
   extends: ['@nft-team/eslint-config'],
   overrides: [
