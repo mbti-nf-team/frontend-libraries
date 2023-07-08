@@ -12,7 +12,6 @@
     "@changesets/cli": "^2.26.2"
   },
   "devDependencies": {
-    "@nft-team/eslint-config": "0.0.4",
     "@turbo/gen": "^1.10.7",
     "eslint": "^8.44.0",
     "tsup": "^7.1.0",
