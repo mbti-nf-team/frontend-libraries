@@ -1,9 +1,19 @@
 {
   "name": "@nft-team/react",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "nft team 리액트 라이브러리",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
+  "author": {
+    "email": "dbd02169@naver.com",
+    "name": "SEUNGMIN SA (Harang)",
+    "url": "https://github.com/saseungmin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbti-nf-team/frontend-libraries.git"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format cjs --dts",
     "dev": "yarn run build -- --watch",
@@ -15,7 +25,7 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@nft-team/eslint-config": "0.0.4",
+    "@nft-team/eslint-config": "1.0.0",
     "@nft-team/tsconfig": "0.0.1",
     "@swc/core": "^1.3.67",
     "@swc/jest": "^0.2.26",
@@ -44,5 +54,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "bugs": {
+    "email": "dbd02169@naver.com",
+    "url": "https://github.com/mbti-nf-team/frontend-libraries/issues"
   }
 }
