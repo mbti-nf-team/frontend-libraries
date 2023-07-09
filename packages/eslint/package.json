@@ -1,6 +1,6 @@
 {
   "name": "@nft-team/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nft team eslint config",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,15 @@
     "name": "SEUNGMIN SA (Harang)",
     "url": "https://github.com/saseungmin"
   },
+  "keywords": [
+    "nft-team",
+    "eslint-config-airbnb",
+    "eslint-config-airbnb-typescript",
+    "eslint-import",
+    "eslint-plugin-react",
+    "eslint-plugin-simple-import-sort",
+    "eslint-plugin-unused-imports"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mbti-nf-team/frontend-libraries.git"
