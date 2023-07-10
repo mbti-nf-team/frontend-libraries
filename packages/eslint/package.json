@@ -22,13 +22,11 @@
     "type": "git",
     "url": "https://github.com/mbti-nf-team/frontend-libraries.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^13.4.7",
-    "eslint-config-turbo": "^1.10.6",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
