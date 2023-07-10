@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- e67f4d7: feat: 불필요한 eslint-config-next, eslint-config-turbo 설치 의존성 제거
+
 ## 1.0.1
 
 ### Patch Changes
