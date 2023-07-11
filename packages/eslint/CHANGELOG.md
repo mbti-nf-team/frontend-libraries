@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 1.1.1
+
+### Patch Changes
+
+- feat(@nft-team/eslint-config): eslint config import 정렬 업데이트 및 문서 추가
+
 ## 1.1.0
 
 ### Minor Changes
