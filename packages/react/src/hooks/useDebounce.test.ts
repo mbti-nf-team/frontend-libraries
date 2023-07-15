@@ -2,6 +2,16 @@ import { renderHook } from '@testing-library/react';
 
 import useDebounce from './useDebounce';
 
+function mockSetTimeout() {
+  jest.useFakeTimers();
+  jest.spyOn(global, 'setTimeout');
+}
+
+function mockClearTimeout() {
+  jest.useFakeTimers();
+  jest.spyOn(global, 'clearTimeout');
+}
+
 describe('useDebounce()', () => {
   afterEach(() => {
     jest.useRealTimers();
@@ -40,13 +50,3 @@ describe('useDebounce()', () => {
     expect(clearTimeout).toHaveBeenCalledTimes(1);
   });
 });
-
-function mockSetTimeout() {
-  jest.useFakeTimers();
-  jest.spyOn(global, 'setTimeout');
-}
-
-function mockClearTimeout() {
-  jest.useFakeTimers();
-  jest.spyOn(global, 'clearTimeout');
-}
