@@ -11,6 +11,8 @@
 ## 📚 Libraries
 - [@nft-team/react](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/react)
   - [npm](https://www.npmjs.com/package/@nft-team/react)
+- [@nft-team/core](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/core)
+  - [npm](https://www.npmjs.com/package/@nft-team/core)
 - [@nft-team/eslint-config](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/eslint)
   - [npm](https://www.npmjs.com/package/@nft-team/eslint-config)
 
