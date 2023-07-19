@@ -1,4 +1,4 @@
-export const checkNull = (value?: string | null, replacementValue?: string): string => {
+export const removeNullable = (value?: string | null, replacementValue?: string): string => {
   if (value) {
     return value;
   }
@@ -10,12 +10,12 @@ export const checkNull = (value?: string | null, replacementValue?: string): str
   return '';
 };
 
-export const checkNumNull = (value?: number | null): number => {
-  if (!value) {
-    return 0;
+export const checkNumber = (value?: number | null): number => {
+  if (typeof value === 'number') {
+    return value;
   }
 
-  return value;
+  return 0;
 };
 
 export const emptyAThenB = (b: string, a?: string | null): string => a || b;
