@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 1.1.0
+
+### Minor Changes
+
+- 6d287ed: refactor(@nft-team/core): 유틸함수 변수명 변경 (`removeNullable`, `checkNumber`)
+
 ## 1.0.0
 
 ### Major Changes
