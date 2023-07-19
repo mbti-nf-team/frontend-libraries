@@ -1,18 +1,18 @@
 import {
   checkEmpty,
-  checkNull,
-  checkNumNull,
+  checkNumber,
   emptyAThenB,
   generateArrayOfNumber,
   isEmpty,
+  removeNullable,
   trueOrFalse,
 } from './utils';
 
-describe('checkNull', () => {
+describe('removeNullable', () => {
   context('value가 null일 경우', () => {
     context('replacementValue가 존재하지 않는 경우', () => {
       it('빈 문자열을 반환해야만 한다', () => {
-        const result = checkNull(null);
+        const result = removeNullable(null);
 
         expect(result).toBe('');
       });
@@ -20,7 +20,7 @@ describe('checkNull', () => {
 
     context('replacementValue가 존재하는 경우', () => {
       it('대체할 문자열(두 번째 인자)을 반환해야만 한다', () => {
-        const result = checkNull(undefined, '-');
+        const result = removeNullable(undefined, '-');
 
         expect(result).toBe('-');
       });
@@ -29,17 +29,17 @@ describe('checkNull', () => {
 
   context('value가 null이 아닌 경우', () => {
     it('입력된 값이 반환되어야만 한다', () => {
-      const result = checkNull('nana');
+      const result = removeNullable('nana');
 
       expect(result).toBe('nana');
     });
   });
 });
 
-describe('checkNumNull', () => {
+describe('checkNumber', () => {
   context('value가 null인 경우', () => {
     it('0을 반환해야 한다', () => {
-      const result = checkNumNull(0);
+      const result = checkNumber(null);
 
       expect(result).toBe(0);
     });
@@ -47,7 +47,7 @@ describe('checkNumNull', () => {
 
   context('value가 null이 아닌 경우', () => {
     it('입력된 값이 반환되어야 한다', () => {
-      const result = checkNumNull(100);
+      const result = checkNumber(100);
 
       expect(result).toBe(100);
     });

@@ -1,4 +1,4 @@
 export {
-  checkEmpty, checkNull, checkNumNull, emptyAThenB, generateArrayOfNumber,
-  isEmpty, trueOrFalse,
+  checkEmpty, checkNumber, emptyAThenB, generateArrayOfNumber,
+  isEmpty, removeNullable, trueOrFalse,
 } from './utils';
