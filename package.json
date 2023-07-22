@@ -12,7 +12,9 @@
     "publish-packages": "turbo run build lint && changeset version && changeset publish",
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "docs": "yarn workspace docs",
+    "docs:build": "yarn run docs build"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.2"
