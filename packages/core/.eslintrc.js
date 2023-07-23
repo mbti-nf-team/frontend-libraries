@@ -11,6 +11,7 @@ module.exports = {
     'dist/',
     'coverage/',
   ],
+  plugins: ['eslint-plugin-tsdoc'],
   extends: ['@nft-team/eslint-config'],
   overrides: [
     {
@@ -32,5 +33,6 @@ module.exports = {
     'import/export': 'off',
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'tsdoc/syntax': 'warn',
   },
 };

@@ -29,9 +29,6 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: 'module',
-    babelOptions: {
-      presets: [require.resolve('next/babel')],
-    },
   },
   overrides: [
     {

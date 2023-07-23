@@ -23,6 +23,18 @@ const config = {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
+  plugins: [
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        entryPoints: ['../../packages/react', '../../packages/core'],
+        entryPointStrategy: 'packages',
+        sidebar: {
+          fullNames: true,
+        },
+      },
+    ],
+  ],
   presets: [
     [
       'classic',
@@ -67,9 +79,14 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: 'docs/api/',
+            activeBasePath: 'docs',
+            label: 'API',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/mbti-nf-team/frontend-libraries',
             label: 'GitHub',
             position: 'right',
           },
@@ -108,12 +125,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/mbti-nf-team/frontend-libraries',
               },
             ],
           },
