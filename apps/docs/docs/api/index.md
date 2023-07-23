@@ -1,3 +1,11 @@
+---
+id: "index"
+title: "Documentation"
+sidebar_label: "Readme"
+sidebar_position: 0
+custom_edit_url: null
+---
+
 # 🚧 WIP 🚧 @nft-team frontend-libraries
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
