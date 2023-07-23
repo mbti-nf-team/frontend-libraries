@@ -3250,7 +3250,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nft-team/core@workspace:packages/core"
   dependencies:
-    "@nft-team/eslint-config": 1.1.1
+    "@nft-team/eslint-config": 1.1.2
     "@nft-team/tsconfig": 0.0.1
     "@swc/core": ^1.3.67
     "@swc/jest": ^0.2.26
@@ -3267,7 +3267,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nft-team/eslint-config@1.1.1, @nft-team/eslint-config@workspace:packages/eslint":
+"@nft-team/eslint-config@1.1.2, @nft-team/eslint-config@workspace:packages/eslint":
   version: 0.0.0-use.local
   resolution: "@nft-team/eslint-config@workspace:packages/eslint"
   dependencies:
@@ -3290,7 +3290,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nft-team/react@workspace:packages/react"
   dependencies:
-    "@nft-team/eslint-config": 1.1.1
+    "@nft-team/eslint-config": 1.1.2
     "@nft-team/tsconfig": 0.0.1
     "@swc/core": ^1.3.67
     "@swc/jest": ^0.2.26
