@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 1.2.1
+
+### Patch Changes
+
+- 49402bb: docs: typedoc 세팅, ts docs 작성 및 문서 업데이트
+
 ## 1.2.0
 
 ### Minor Changes

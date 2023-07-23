@@ -1,6 +1,6 @@
 {
   "name": "@nft-team/react",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "nft team 리액트 라이브러리",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -25,7 +25,7 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@nft-team/eslint-config": "1.1.1",
+    "@nft-team/eslint-config": "1.1.2",
     "@nft-team/tsconfig": "0.0.1",
     "@swc/core": "^1.3.67",
     "@swc/jest": "^0.2.26",
