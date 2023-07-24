@@ -12,6 +12,7 @@ module.exports = {
     'coverage/',
   ],
   extends: ['@nft-team/eslint-config'],
+  plugins: ['eslint-plugin-tsdoc'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
@@ -33,5 +34,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
     'react/require-default-props': 'off',
+    'tsdoc/syntax': 'warn',
   },
 };
