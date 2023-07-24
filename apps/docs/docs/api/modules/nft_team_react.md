@@ -12,6 +12,26 @@ custom_edit_url: null
 
 ▸ **ClientOnly**(`«destructured»`): `ReactElement` \| ``null``
 
+**`Description`**
+
+Component의 mount 여부를 확인하여 mount가 된 경우, Component를 render해줍니다.
+mount되지 않은 경우에는 Component를 render해주지 않습니다.
+
+SSR 환경에서 실제로 컴포넌트가 브라우저에서 mount 된 이후에만 해당 Component를 보여주고 싶을때 사용합니다.
+(SSR 환경에서 Hydration 오류로 인해서 에러가 발생하는 문제를 해결합니다.)
+
+**`Example`**
+
+```tsx
+function ClintOnlyComponent() {
+ return (
+   <ClientOnly>
+     <div>Render only client environment</div>
+   </ClientOnly>
+ );
+}
+```
+
 #### Parameters
 
 | Name | Type |
@@ -25,7 +45,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/react/src/components/ClientOnly.tsx:5](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/components/ClientOnly.tsx#L5)
+[packages/react/src/components/ClientOnly.tsx:23](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/components/ClientOnly.tsx#L23)
 
 ___
 
@@ -45,7 +65,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/components/DelayRenderComponent.tsx:11](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/components/DelayRenderComponent.tsx#L11)
+[packages/react/src/components/DelayRenderComponent.tsx:11](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/components/DelayRenderComponent.tsx#L11)
 
 ___
 
@@ -65,7 +85,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/components/GlobalPortal.tsx:10](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/components/GlobalPortal.tsx#L10)
+[packages/react/src/components/GlobalPortal.tsx:10](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/components/GlobalPortal.tsx#L10)
 
 ___
 
@@ -93,7 +113,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useActionKeyEvent.ts#L6)
+[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useActionKeyEvent.ts#L6)
 
 ___
 
@@ -113,7 +133,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useBoolean.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useBoolean.ts#L3)
+[packages/react/src/hooks/useBoolean.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useBoolean.ts#L3)
 
 ___
 
@@ -140,7 +160,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useDebounce.ts#L3)
+[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useDebounce.ts#L3)
 
 ___
 
@@ -148,13 +168,31 @@ ___
 
 ▸ **useIsMounted**(): `boolean`
 
+**`Description`**
+
+Component의 mount 여부를 확인하는 hook 입니다.
+SSR 환경에서 실제로 컴포넌트가 브라우저에서 mount 된 이후에 어떤 동작을 실행하기 위해서 사용합니다.
+
+**`Example`**
+
+```ts
+const isMounted = useIsMounted();
+
+useEffect(() => {
+  if (isMounted) {
+    return;
+  }
+}, [isMounted]);
+
+```
+
 #### Returns
 
 `boolean`
 
 #### Defined in
 
-[packages/react/src/hooks/useIsMounted.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useIsMounted.ts#L3)
+[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useIsMounted.ts#L18)
 
 ___
 
@@ -199,7 +237,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useResizeViewportHeight.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useResizeViewportHeight.ts#L3)
+[packages/react/src/hooks/useResizeViewportHeight.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useResizeViewportHeight.ts#L3)
 
 ___
 
@@ -220,4 +258,4 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/47d5b08/packages/react/src/hooks/useTimeout.ts#L5)
+[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/e8d380c/packages/react/src/hooks/useTimeout.ts#L5)
