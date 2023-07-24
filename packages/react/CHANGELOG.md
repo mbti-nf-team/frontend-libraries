@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 1.2.2
+
+### Patch Changes
+
+- d4e95ed: docs: useIsMounted, ClientOnly ts-docs 작성
+
 ## 1.2.1
 
 ### Patch Changes
