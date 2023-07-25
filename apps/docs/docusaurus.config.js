@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '@nft-team/frontend-libraries',
+  tagline: 'Frontend Libraries',
   favicon: 'img/favicon.ico',
   url: 'https://mbti-nf-team.github.io',
   baseUrl: '/frontend-libraries/',
@@ -29,6 +29,7 @@ const config = {
       {
         entryPoints: ['../../packages/react', '../../packages/core'],
         entryPointStrategy: 'packages',
+        out: '.',
         sidebar: {
           fullNames: true,
         },
@@ -67,22 +68,16 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '@nft-team/frontend-libraries',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            to: 'docs/api/',
+            to: 'docs/',
             activeBasePath: 'docs',
-            label: 'API',
+            label: 'libraries',
             position: 'left',
           },
           {
@@ -99,8 +94,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'libraries',
+                to: '/docs',
               },
             ],
           },
