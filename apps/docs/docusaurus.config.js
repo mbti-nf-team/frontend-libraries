@@ -75,9 +75,21 @@ const config = {
         },
         items: [
           {
-            to: 'docs/',
-            activeBasePath: 'docs',
-            label: 'libraries',
+            to: 'docs/modules/nft_team_core',
+            activeBasePath: 'docs/modules/nft_team_core',
+            label: '@nft-team/core',
+            position: 'left',
+          },
+          {
+            to: 'docs/modules/nft_team_react',
+            activeBasePath: 'docs/modules/nft_team_react',
+            label: '@nft-team/react',
+            position: 'left',
+          },
+          {
+            to: 'docs/modules/nft_team_eslint',
+            activeBasePath: 'docs/modules/nft_team_eslint',
+            label: '@nft-team/eslint-config',
             position: 'left',
           },
           {
@@ -91,11 +103,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Libraries',
             items: [
               {
-                label: 'libraries',
-                to: '/docs',
+                label: '@nft-team/core',
+                to: '/docs/modules/nft_team_core',
+              },
+              {
+                label: '@nft-team/react',
+                to: '/docs/modules/nft_team_react',
+              },
+              {
+                label: '@nft-team/eslint-config',
+                to: '/docs/modules/nft_team_eslint',
               },
             ],
           },
@@ -103,16 +123,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Organization',
+                href: 'https://github.com/mbti-nf-team',
               },
             ],
           },
@@ -126,7 +138,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} @nft-team.`,
       },
       prism: {
         theme: lightCodeTheme,
