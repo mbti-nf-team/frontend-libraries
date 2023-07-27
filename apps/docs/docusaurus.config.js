@@ -27,11 +27,28 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        entryPoints: ['../../packages/react', '../../packages/core'],
+        id: 'api-1',
+        entryPoints: ['../../packages/core'],
         entryPointStrategy: 'packages',
-        out: '.',
+        out: 'core',
         sidebar: {
           fullNames: true,
+          position: 1,
+          categoryLabel: '@nft-team/core',
+        },
+      },
+    ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id: 'api-2',
+        entryPoints: ['../../packages/react'],
+        entryPointStrategy: 'packages',
+        out: 'react',
+        sidebar: {
+          fullNames: true,
+          position: 2,
+          categoryLabel: '@nft-team/react',
         },
       },
     ],
@@ -75,20 +92,20 @@ const config = {
         },
         items: [
           {
-            to: 'docs/modules/nft_team_core',
-            activeBasePath: 'docs/modules/nft_team_core',
+            to: 'docs/core',
+            activeBasePath: 'docs/core',
             label: '@nft-team/core',
             position: 'left',
           },
           {
-            to: 'docs/modules/nft_team_react',
-            activeBasePath: 'docs/modules/nft_team_react',
+            to: 'docs/react',
+            activeBasePath: 'docs/react',
             label: '@nft-team/react',
             position: 'left',
           },
           {
-            to: 'docs/modules/nft_team_eslint',
-            activeBasePath: 'docs/modules/nft_team_eslint',
+            to: 'docs/eslint-config',
+            activeBasePath: 'docs/eslint-config',
             label: '@nft-team/eslint-config',
             position: 'left',
           },
@@ -107,15 +124,15 @@ const config = {
             items: [
               {
                 label: '@nft-team/core',
-                to: '/docs/modules/nft_team_core',
+                to: '/docs/core',
               },
               {
                 label: '@nft-team/react',
-                to: '/docs/modules/nft_team_react',
+                to: '/docs/react',
               },
               {
                 label: '@nft-team/eslint-config',
-                to: '/docs/modules/nft_team_eslint',
+                to: '/docs/eslint-config',
               },
             ],
           },

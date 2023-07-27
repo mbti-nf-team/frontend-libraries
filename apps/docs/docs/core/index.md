@@ -1,3 +1,11 @@
+---
+id: "index"
+title: "@nft-team/core"
+sidebar_label: "Readme"
+sidebar_position: 0
+custom_edit_url: null
+---
+
 # 🚧 WIP 🚧 @nft-team/core
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">

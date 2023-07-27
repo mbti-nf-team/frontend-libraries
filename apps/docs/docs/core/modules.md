@@ -1,8 +1,8 @@
 ---
-id: "nft_team_core"
-title: "Module: @nft-team/core"
-sidebar_label: "@nft-team/core"
-sidebar_position: 0
+id: "modules"
+title: "@nft-team/core - v1.1.1"
+sidebar_label: "Exports"
+sidebar_position: 0.5
 custom_edit_url: null
 ---
 
@@ -30,7 +30,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[utils.ts:44](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L44)
+[utils.ts:44](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L44)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[utils.ts:26](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L26)
+[utils.ts:26](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L26)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[utils.ts:34](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L34)
+[utils.ts:34](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L34)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 #### Defined in
 
-[utils.ts:64](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L64)
+[utils.ts:64](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L64)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[utils.ts:52](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L52)
+[utils.ts:52](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L52)
 
 ___
 
@@ -153,7 +153,7 @@ console.log(result); // 'newValue';
 
 #### Defined in
 
-[utils.ts:14](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L14)
+[utils.ts:14](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L14)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-[utils.ts:36](https://github.com/mbti-nf-team/frontend-libraries/blob/e94e3e1/packages/core/src/utils.ts#L36)
+[utils.ts:36](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/core/src/utils.ts#L36)

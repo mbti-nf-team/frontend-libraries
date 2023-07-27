@@ -5,7 +5,7 @@
 </a>
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square">
+  <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square" />
 </a>
 
 ## 🐛 Bug reporting

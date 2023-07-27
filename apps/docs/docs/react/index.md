@@ -1,4 +1,12 @@
-# 🚧 WIP 🚧 @nft-team/core
+---
+id: "index"
+title: "@nft-team/react"
+sidebar_label: "Readme"
+sidebar_position: 0
+custom_edit_url: null
+---
+
+# 🚧 WIP 🚧 @nft-team/react
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
   <img src="https://img.shields.io/github/issues/mbti-nf-team/frontend-libraries?style=flat-square" />

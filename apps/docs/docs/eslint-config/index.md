@@ -1,10 +1,20 @@
 ---
-id: "nft_team_eslint"
-title: "Module: @nft-team/eslint-config"
+id: "index"
+title: "@nft-team/eslint-config"
 sidebar_label: "@nft-team/eslint-config"
-sidebar_position: 2
+sidebar_position: 0
 custom_edit_url: null
 ---
+
+# @nft-team/eslint-config
+
+<a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
+  <img src="https://img.shields.io/github/issues/mbti-nf-team/frontend-libraries?style=flat-square" />
+</a>
+
+<a href="https://github.com/mbti-nf-team/frontend-libraries/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square" />
+</a>
 
 ## 🚀 Quick Overview
 
@@ -61,3 +71,9 @@ This is the default value for the `groups` option:
   ['^.+\\.s?css$'],
 ]
 ```
+
+## 🐛 Bug reporting
+[Issues](https://github.com/mbti-nf-team/frontend-libraries/issues)
+
+## 🔒 LICENSE
+This Project is [MIT licensed](https://github.com/mbti-nf-team/frontend-libraries/blob/main/LICENSE).
