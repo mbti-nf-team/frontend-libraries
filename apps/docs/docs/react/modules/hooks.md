@@ -32,7 +32,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useActionKeyEvent.ts#L6)
+[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useActionKeyEvent.ts#L6)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useBoolean.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useBoolean.ts#L3)
+[packages/react/src/hooks/useBoolean.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useBoolean.ts#L3)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useDebounce.ts#L3)
+[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useDebounce.ts#L3)
 
 ___
 
@@ -111,7 +111,7 @@ useEffect(() => {
 
 #### Defined in
 
-[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useIsMounted.ts#L18)
+[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useIsMounted.ts#L18)
 
 ___
 
@@ -146,6 +146,27 @@ node_modules/@types/react/ts5.0/index.d.ts:1064
 
 ___
 
+### useLessThenScrollY
+
+▸ **useLessThenScrollY**(`targetScrollY?`, `delay?`): `boolean`
+
+#### Parameters
+
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `targetScrollY` | `number` | `0` |
+| `delay` | `number` | `200` |
+
+#### Returns
+
+`boolean`
+
+#### Defined in
+
+[packages/react/src/hooks/useLessThenScrollY.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useLessThenScrollY.ts#L5)
+
+___
+
 ### useResizeViewportHeight
 
 ▸ **useResizeViewportHeight**(): `void`
@@ -156,7 +177,46 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useResizeViewportHeight.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useResizeViewportHeight.ts#L3)
+[packages/react/src/hooks/useResizeViewportHeight.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useResizeViewportHeight.ts#L3)
+
+___
+
+### useThrottleCallback
+
+▸ **useThrottleCallback**<`U`\>(`callback`, `delay`): (...`args`: `U`) => `void`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `U` | extends `never`[] |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `callback` | (...`args`: `U`) => `void` |
+| `delay` | `number` |
+
+#### Returns
+
+`fn`
+
+▸ (`...args`): `void`
+
+##### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `...args` | `U` |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[packages/react/src/hooks/useThrottleCallback.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useThrottleCallback.ts#L3)
 
 ___
 
@@ -177,4 +237,4 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c4262dc/packages/react/src/hooks/useTimeout.ts#L5)
+[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useTimeout.ts#L5)

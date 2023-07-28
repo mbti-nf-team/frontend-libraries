@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 1.3.0
+
+### Minor Changes
+
+- 37edff5: feat(@nft-team/react): useLessThenScrollY, useThrottleCallback hook 적용
+
 ## 1.2.2
 
 ### Patch Changes
