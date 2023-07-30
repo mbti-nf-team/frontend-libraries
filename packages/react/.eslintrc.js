@@ -34,6 +34,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
     'react/require-default-props': 'off',
-    'tsdoc/syntax': 'warn',
+    'tsdoc/syntax': 'off',
   },
 };
