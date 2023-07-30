@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 1.3.1
+
+### Patch Changes
+
+- c4a0fa8: docs(@nft-team/react): useResizeViewportHeight, useBoolean, GlobalPortal tsdocs 작성
+
 ## 1.3.0
 
 ### Minor Changes
