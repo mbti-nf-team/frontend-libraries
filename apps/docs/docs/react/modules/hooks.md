@@ -32,7 +32,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useActionKeyEvent.ts#L6)
+[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useActionKeyEvent.ts#L6)
 
 ___
 
@@ -40,11 +40,21 @@ ___
 
 ▸ **useBoolean**(`initialValue?`): [`boolean`, () => `void`, () => `void`, (`nextValue?`: `boolean`) => `void`]
 
+**`Description`**
+
+`boolean` 타입으로만 반환하는 `useState`를 쉽게 사용할 수 있는 hook 입니다.
+
+**`Example`**
+
+```ts
+const [isOpen, openModal, closeModal, toggleModal] = useBoolean();
+```
+
 #### Parameters
 
-| Name | Type | Default value |
-| :------ | :------ | :------ |
-| `initialValue` | `boolean` | `false` |
+| Name | Type | Default value | Description |
+| :------ | :------ | :------ | :------ |
+| `initialValue` | `boolean` | `false` | 초기값을 세팅 |
 
 #### Returns
 
@@ -52,7 +62,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useBoolean.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useBoolean.ts#L3)
+[packages/react/src/hooks/useBoolean.ts:13](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useBoolean.ts#L13)
 
 ___
 
@@ -79,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useDebounce.ts#L3)
+[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useDebounce.ts#L3)
 
 ___
 
@@ -89,7 +99,7 @@ ___
 
 **`Description`**
 
-Component의 mount 여부를 확인하는 hook 입니다.
+Component의 mount 여부를 확인하는 hook 입니다. <br />
 SSR 환경에서 실제로 컴포넌트가 브라우저에서 mount 된 이후에 어떤 동작을 실행하기 위해서 사용합니다.
 
 **`Example`**
@@ -111,7 +121,7 @@ useEffect(() => {
 
 #### Defined in
 
-[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useIsMounted.ts#L18)
+[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useIsMounted.ts#L18)
 
 ___
 
@@ -163,7 +173,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useLessThenScrollY.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useLessThenScrollY.ts#L5)
+[packages/react/src/hooks/useLessThenScrollY.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useLessThenScrollY.ts#L5)
 
 ___
 
@@ -171,13 +181,29 @@ ___
 
 ▸ **useResizeViewportHeight**(): `void`
 
+**`Description`**
+
+스크롤을 포함한 window의 높이를 가져와 window 크기를 resize해줍니다. <br />
+모바일 환경의 웹뷰에서 디바이스 및 브라우저 환경에 따라 크기가 달라져 불필요한 스크롤이 생길 수 있습니다. 이때 이 hook을 사용하면 유용합니다.
+
+**`Example`**
+
+```tsx
+function SampleComponent() {
+  useResizeViewportHeight();
+
+  return <div>sample text</div>
+}
+
+```
+
 #### Returns
 
 `void`
 
 #### Defined in
 
-[packages/react/src/hooks/useResizeViewportHeight.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useResizeViewportHeight.ts#L3)
+[packages/react/src/hooks/useResizeViewportHeight.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useResizeViewportHeight.ts#L17)
 
 ___
 
@@ -216,7 +242,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useThrottleCallback.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useThrottleCallback.ts#L3)
+[packages/react/src/hooks/useThrottleCallback.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useThrottleCallback.ts#L3)
 
 ___
 
@@ -237,4 +263,4 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/d191bf9/packages/react/src/hooks/useTimeout.ts#L5)
+[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/27f22a1/packages/react/src/hooks/useTimeout.ts#L5)
