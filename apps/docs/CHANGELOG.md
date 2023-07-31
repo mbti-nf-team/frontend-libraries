@@ -1,5 +1,11 @@
 # docs
 
+## 1.1.1
+
+### Patch Changes
+
+- 0d6c448: docs: 각 라이브러리에서 업데이트된 readme.md를 문서 업데이트
+
 ## 1.1.0
 
 ### Minor Changes

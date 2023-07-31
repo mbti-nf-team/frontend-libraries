@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 1.3.2
+
+### Patch Changes
+
+- cd9551a: docs: package.json homepage, readme.md 업데이트 및 license 추가
+
 ## 1.3.1
 
 ### Patch Changes
