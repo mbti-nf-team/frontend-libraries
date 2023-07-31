@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 1.1.2
+
+### Patch Changes
+
+- cd9551a: docs: package.json homepage, readme.md 업데이트 및 license 추가
+
 ## 1.1.1
 
 ### Patch Changes
