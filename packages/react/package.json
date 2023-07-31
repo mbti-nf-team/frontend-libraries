@@ -14,6 +14,7 @@
     "type": "git",
     "url": "https://github.com/mbti-nf-team/frontend-libraries.git"
   },
+  "homepage": "https://mbti-nf-team.github.io/frontend-libraries/docs/react",
   "scripts": {
     "build": "tsup src/index.ts --format cjs --dts",
     "dev": "yarn run build -- --watch",
