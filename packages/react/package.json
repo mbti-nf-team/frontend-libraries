@@ -1,7 +1,7 @@
 {
-  "name": "@nft-team/react",
-  "version": "1.3.2",
-  "description": "nft team 리액트 라이브러리",
+  "name": "@nf-team/react",
+  "version": "2.0.0",
+  "description": "nf-team 리액트 라이브러리",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
@@ -26,8 +26,8 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@nft-team/eslint-config": "1.1.3",
-    "@nft-team/tsconfig": "0.0.1",
+    "@nf-team/eslint-config": "2.0.0",
+    "@nf-team/tsconfig": "1.0.0",
     "@swc/core": "^1.3.67",
     "@swc/jest": "^0.2.26",
     "@testing-library/jest-dom": "^5.16.5",

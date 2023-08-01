@@ -1,4 +1,4 @@
-# @nft-team/core
+# @nf-team/core
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
   <img src="https://img.shields.io/github/issues/mbti-nf-team/frontend-libraries?style=flat-square" />
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square" />
 </a>
 
-[Check out our @nft-team/core libraries docs.](https://mbti-nf-team.github.io/frontend-libraries/docs/core)
+[Check out our @nf-team/core libraries docs.](https://mbti-nf-team.github.io/frontend-libraries/docs/core)
 
 ## 🐛 Bug reporting
 [Issues](https://github.com/mbti-nf-team/frontend-libraries/issues)

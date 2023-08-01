@@ -1,5 +1,5 @@
 {
-  "extends": "@nft-team/tsconfig/base.json",
+  "extends": "@nf-team/tsconfig/base.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

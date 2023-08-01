@@ -12,7 +12,7 @@ module.exports = {
     'coverage/',
   ],
   plugins: ['eslint-plugin-tsdoc'],
-  extends: ['@nft-team/eslint-config'],
+  extends: ['@nf-team/eslint-config'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],

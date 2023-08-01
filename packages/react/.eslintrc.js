@@ -11,7 +11,7 @@ module.exports = {
     'dist/',
     'coverage/',
   ],
-  extends: ['@nft-team/eslint-config'],
+  extends: ['@nf-team/eslint-config'],
   plugins: ['eslint-plugin-tsdoc'],
   overrides: [
     {
