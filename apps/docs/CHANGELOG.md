@@ -1,5 +1,11 @@
 # docs
 
+## 2.0.0
+
+### Major Changes
+
+- feat: @nft-team에서 @nf-team으로 패키지명 변경
+
 ## 1.1.1
 
 ### Patch Changes

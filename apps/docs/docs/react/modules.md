@@ -1,6 +1,6 @@
 ---
 id: "modules"
-title: "@nft-team/react - v1.3.1"
+title: "@nf-team/react - v2.0.0"
 sidebar_label: "Exports"
 sidebar_position: 0.5
 custom_edit_url: null

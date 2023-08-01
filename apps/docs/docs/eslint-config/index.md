@@ -1,12 +1,12 @@
 ---
 id: "index"
-title: "@nft-team/eslint-config"
-sidebar_label: "@nft-team/eslint-config"
+title: "@nf-team/eslint-config"
+sidebar_label: "@nf-team/eslint-config"
 sidebar_position: 0
 custom_edit_url: null
 ---
 
-# @nft-team/eslint-config
+# @nf-team/eslint-config
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
   <img src="https://img.shields.io/github/issues/mbti-nf-team/frontend-libraries?style=flat-square" />
@@ -18,25 +18,25 @@ custom_edit_url: null
 
 ## 🚀 Quick Overview
 
-Install `@nft-team/eslint-config` dependency
+Install `@nf-team/eslint-config` dependency
 
 ```bash
-npm install --save-dev @nft-team/eslint-config
+npm install --save-dev @nf-team/eslint-config
 ```
 
-Add `@nft-team/eslint-config` to `extends` in your `.eslintrc`
+Add `@nf-team/eslint-config` to `extends` in your `.eslintrc`
 
 ```js
 module.exports = {
   // ...
-  extends: ['@nft-team/eslint-config'],
+  extends: ['@nf-team/eslint-config'],
   rules: {
     // ...
   },
 };
 ```
 
-## 🤔 What eslint extensions does `@nft-team/eslint-config` have?
+## 🤔 What eslint extensions does `@nf-team/eslint-config` have?
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 - [eslint-config-airbnb-typescript](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)

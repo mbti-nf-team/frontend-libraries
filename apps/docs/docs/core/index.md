@@ -1,12 +1,12 @@
 ---
 id: "index"
-title: "@nft-team/core"
+title: "@nf-team/core"
 sidebar_label: "Readme"
 sidebar_position: 0
 custom_edit_url: null
 ---
 
-# @nft-team/core
+# @nf-team/core
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
   <img src="https://img.shields.io/github/issues/mbti-nf-team/frontend-libraries?style=flat-square" />
@@ -16,7 +16,7 @@ custom_edit_url: null
   <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square" />
 </a>
 
-[Check out our @nft-team/core libraries docs.](https://mbti-nf-team.github.io/frontend-libraries/docs/core)
+[Check out our @nf-team/core libraries docs.](https://mbti-nf-team.github.io/frontend-libraries/docs/core)
 
 ## 🐛 Bug reporting
 [Issues](https://github.com/mbti-nf-team/frontend-libraries/issues)

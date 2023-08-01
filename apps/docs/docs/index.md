@@ -6,6 +6,6 @@ sidebar_position: 0
 custom_edit_url: null
 ---
 
-- [@nft-team/core](core/index.md)
-- [@nft-team/react](react/index.md)
-- [@nft-team/eslint-config](eslint-config/index.md)
+- [@nf-team/core](core/index.md)
+- [@nf-team/react](react/index.md)
+- [@nf-team/eslint-config](eslint-config/index.md)
