@@ -1,6 +1,6 @@
 {
   "entryPoints": ["packages/*"],
-  "name": "@nft-team/frontend-libraries",
+  "name": "@nf-team/frontend-libraries",
   "entryPointStrategy": "packages",
   "includeVersion": true
 }

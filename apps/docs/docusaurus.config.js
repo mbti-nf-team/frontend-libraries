@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '@nft-team/frontend-libraries',
+  title: '@nf-team/frontend-libraries',
   tagline: 'Frontend Libraries',
   favicon: 'img/favicon.ico',
   url: 'https://mbti-nf-team.github.io',
@@ -34,7 +34,7 @@ const config = {
         sidebar: {
           fullNames: true,
           position: 1,
-          categoryLabel: '@nft-team/core',
+          categoryLabel: '@nf-team/core',
         },
       },
     ],
@@ -48,7 +48,7 @@ const config = {
         sidebar: {
           fullNames: true,
           position: 2,
-          categoryLabel: '@nft-team/react',
+          categoryLabel: '@nf-team/react',
         },
       },
     ],
@@ -85,7 +85,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '@nft-team/frontend-libraries',
+        title: '@nf-team/frontend-libraries',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -94,19 +94,19 @@ const config = {
           {
             to: 'docs/core',
             activeBasePath: 'docs/core',
-            label: '@nft-team/core',
+            label: '@nf-team/core',
             position: 'left',
           },
           {
             to: 'docs/react',
             activeBasePath: 'docs/react',
-            label: '@nft-team/react',
+            label: '@nf-team/react',
             position: 'left',
           },
           {
             to: 'docs/eslint-config',
             activeBasePath: 'docs/eslint-config',
-            label: '@nft-team/eslint-config',
+            label: '@nf-team/eslint-config',
             position: 'left',
           },
           {
@@ -123,15 +123,15 @@ const config = {
             title: 'Libraries',
             items: [
               {
-                label: '@nft-team/core',
+                label: '@nf-team/core',
                 to: '/docs/core',
               },
               {
-                label: '@nft-team/react',
+                label: '@nf-team/react',
                 to: '/docs/react',
               },
               {
-                label: '@nft-team/eslint-config',
+                label: '@nf-team/eslint-config',
                 to: '/docs/eslint-config',
               },
             ],
@@ -155,7 +155,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} @nft-team.`,
+        copyright: `Copyright © ${new Date().getFullYear()} @nf-team.`,
       },
       prism: {
         theme: lightCodeTheme,

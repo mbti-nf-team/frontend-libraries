@@ -11,7 +11,7 @@ module.exports = {
     'build/',
     'coverage/',
   ],
-  extends: ['@nft-team/eslint-config'],
+  extends: ['@nf-team/eslint-config'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],

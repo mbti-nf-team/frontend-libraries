@@ -1,7 +1,7 @@
 {
   "name": "frontend-libraries",
   "version": "1.0.0",
-  "description": "내가 사용하려고 만든 프론트엔드 라이브러리",
+  "description": "@nf-team 프론트엔드 라이브러리",
   "license": "MIT",
   "author": {
     "email": "dbd02169@naver.com",

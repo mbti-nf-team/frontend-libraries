@@ -1,6 +1,6 @@
 {
-  "name": "@nft-team/tsconfig",
-  "version": "0.0.1",
+  "name": "@nf-team/tsconfig",
+  "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "files": [
