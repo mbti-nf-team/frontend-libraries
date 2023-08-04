@@ -1,6 +1,6 @@
 {
   "name": "@nf-team/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "nf-team eslint config",
   "main": "index.js",
   "license": "MIT",
