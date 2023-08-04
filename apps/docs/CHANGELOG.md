@@ -1,5 +1,11 @@
 # docs
 
+## 2.0.1
+
+### Patch Changes
+
+- fb9228e: docs: 문서 업데이트 및 컴포넌트 리팩터링, 세팅 수정
+
 ## 2.0.0
 
 ### Major Changes

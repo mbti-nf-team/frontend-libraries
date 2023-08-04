@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.0.1
+
+### Patch Changes
+
+- fb9228e: docs: readme.md license 링크 수정
+
 ## 2.0.0
 
 ### Major Changes
