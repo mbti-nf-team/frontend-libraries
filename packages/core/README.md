@@ -14,4 +14,4 @@
 [Issues](https://github.com/mbti-nf-team/frontend-libraries/issues)
 
 ## 🔒 LICENSE
-This libraries is [MIT licensed](https://github.com/mbti-nf-team/frontend-libraries/blob/main/LICENSE).
+This libraries is [MIT licensed](https://github.com/mbti-nf-team/frontend-libraries/blob/main/packages/core/LICENSE).
