@@ -24,6 +24,7 @@ const config = {
     locales: ['ko'],
   },
   plugins: [
+    'docusaurus-plugin-sass',
     [
       'docusaurus-plugin-typedoc',
       {

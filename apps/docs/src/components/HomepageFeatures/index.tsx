@@ -1,34 +1,35 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable global-require */
-import React from 'react';
+import { ComponentType, SVGProps } from 'react';
 
 import Feature from '../Feature';
 
-import styles from './styles.module.css';
+import DocusaurusMountain from '../../assets/undraw_docusaurus_mountain.svg';
+import DocusaurusReact from '../../assets/undraw_docusaurus_react.svg';
+import DocusaurusTree from '../../assets/undraw_docusaurus_tree.svg';
+
+import styles from './index.module.scss';
 
 type FeatureItem = {
   id: number;
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Thumbnail: ComponentType<SVGProps<SVGSVGElement>>;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     id: 1,
     title: '@nf-team/core',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-
+    Thumbnail: DocusaurusMountain,
   },
   {
     id: 2,
     title: '@nf-team/react',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Thumbnail: DocusaurusTree,
 
   },
   {
     id: 3,
     title: '@nf-team/eslint-config',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Thumbnail: DocusaurusReact,
   },
 ];
 
@@ -38,11 +39,11 @@ function HomepageFeatures(): JSX.Element {
       <div className="container">
         <div className="row">
           {FeatureList.map(({
-            Svg, id, title,
+            Thumbnail, id, title,
           }) => (
             <Feature
               key={id}
-              Svg={Svg}
+              Thumbnail={Thumbnail}
               title={title}
             />
           ))}
