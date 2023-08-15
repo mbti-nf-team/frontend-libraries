@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 2.0.2
+
+### Patch Changes
+
+- 1eab828: chore(@nf-team/eslint-config): peer dependencies에 eslint 버전 추가
+
 ## 2.0.1
 
 ### Patch Changes
