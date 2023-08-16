@@ -65,7 +65,7 @@ jobs:
 
       - name: Check Lint
         if: ${{ github.event_name == 'pull_request' }}
-        run: yarn lint $(git diff --name-only --diff-filter=d origin/main | grep  -E '(.js$|.jsx|.ts$|.tsx$)')
+        run: yarn lint
 
       - name: Check Unit Test
         run: yarn test:unit
