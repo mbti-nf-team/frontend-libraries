@@ -13,8 +13,11 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "docs": "yarn workspace docs",
-    "docs:build": "yarn run docs build"
+    "workspace:core": "yarn workspace @nf-team/core",
+    "workspace:react": "yarn workspace @nf-team/react",
+    "workspace:docs": "yarn workspace docs",
+    "docs:build": "yarn run workspace:docs build",
+    "test:unit": "yarn run workspace:core test:coverage && yarn run workspace:react test:coverage"
   },
   "dependencies": {
     "@changesets/cli": "^2.26.2"
