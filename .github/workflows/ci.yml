@@ -9,7 +9,7 @@ on:
 env:
   CACHED_DEPENDENCY_PATHS: |
     ${{ github.workspace }}/.yarn/cache
-    ${{ github.workspace }}/.yarn/unplugged
+    ${{ github.workspace }}/node_modules
   DEFAULT_NODE_VERSION: '18'
 
 jobs:
