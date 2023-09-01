@@ -5,35 +5,42 @@ import useBoolean from '../hooks/useBoolean';
 interface Props {
   isVisible: boolean;
   initialRenderState?: boolean;
-  delay?: number;
+  unRenderDelay?: number;
+  renderDelay?: number;
 }
 
 function DelayRenderComponent({
-  isVisible, delay = 400, initialRenderState = false, children,
+  isVisible, unRenderDelay = 400, renderDelay = 0, initialRenderState = false, children,
 }: PropsWithChildren<Props>) {
   const [isRender, onRender, unRender] = useBoolean(initialRenderState);
-  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const unRenderTimer = useRef<ReturnType<typeof setTimeout>>();
+  const renderTimer = useRef<ReturnType<typeof setTimeout>>();
 
   useEffect(() => {
     if (isVisible) {
-      onRender();
-    }
-  }, [onRender, isVisible]);
-
-  useEffect(() => {
-    if (!isVisible) {
-      timer.current = setTimeout(() => {
-        unRender();
-        timer.current = null;
-      }, delay);
+      renderTimer.current = setTimeout(() => {
+        onRender();
+        renderTimer.current = undefined;
+      }, renderDelay);
     }
 
     return () => {
-      if (timer.current) {
-        clearTimeout(timer.current);
-      }
+      clearTimeout(renderTimer.current);
     };
-  }, [unRender, delay, isVisible]);
+  }, [onRender, renderDelay, isVisible]);
+
+  useEffect(() => {
+    if (!isVisible) {
+      unRenderTimer.current = setTimeout(() => {
+        unRender();
+        unRenderTimer.current = undefined;
+      }, unRenderDelay);
+    }
+
+    return () => {
+      clearTimeout(unRenderTimer.current);
+    };
+  }, [unRender, unRenderDelay, isVisible]);
 
   if (!isRender) {
     return null;

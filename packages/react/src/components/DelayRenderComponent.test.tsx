@@ -24,37 +24,83 @@ describe('DelayRenderComponent', () => {
     <DelayRenderComponent
       initialRenderState={given.initialState}
       isVisible={given.isVisible}
-      delay={delay}
+      unRenderDelay={given.unRenderDelay}
+      renderDelay={given.renderDelay}
     >
       <MockComponent />
     </DelayRenderComponent>
   ));
 
-  context('isVisible이 true인 경우', () => {
-    given('initialState', () => false);
-    given('isVisible', () => true);
+  describe('컴포넌트의 unRendering을 지연시킨다', () => {
+    given('unRenderDelay', () => delay);
 
-    it('자식 컴포넌트가 나타나야만 한다', () => {
-      const { container } = renderDelayRenderComponent();
+    context('isVisible이 true인 경우', () => {
+      given('initialState', () => false);
+      given('isVisible', () => true);
 
-      expect(container).toHaveTextContent(childComponentText);
+      it('자식 컴포넌트가 나타나야만 한다', () => {
+        const { container } = renderDelayRenderComponent();
+
+        act(() => {
+          jest.advanceTimersByTime(0);
+        });
+
+        expect(container).toHaveTextContent(childComponentText);
+      });
+    });
+
+    context('isVisible이 false인 경우', () => {
+      given('initialState', () => true);
+      given('isVisible', () => false);
+
+      it(`${delay}ms 뒤에 아무것도 나타나지 않아야만 한다`, () => {
+        const { container } = renderDelayRenderComponent();
+
+        expect(container).toHaveTextContent(childComponentText);
+
+        act(() => {
+          jest.advanceTimersByTime(200);
+        });
+
+        expect(container).toBeEmptyDOMElement();
+      });
     });
   });
 
-  context('isVisible이 false인 경우', () => {
-    given('initialState', () => true);
-    given('isVisible', () => false);
+  describe('컴포넌트의 rendering을 지연시킨다', () => {
+    given('renderDelay', () => delay);
+    given('unRenderDelay', () => 0);
 
-    it(`${delay}ms 뒤에 아무것도 나타나지 않아야만 한다`, () => {
-      const { container } = renderDelayRenderComponent();
+    context('isVisible이 true인 경우', () => {
+      given('initialState', () => false);
+      given('isVisible', () => true);
 
-      expect(container).toHaveTextContent(childComponentText);
+      it('자식 컴포넌트가 나타나야만 한다', () => {
+        const { container } = renderDelayRenderComponent();
 
-      act(() => {
-        jest.advanceTimersByTime(200);
+        act(() => {
+          jest.advanceTimersByTime(200);
+        });
+
+        expect(container).toHaveTextContent(childComponentText);
       });
+    });
 
-      expect(container).toBeEmptyDOMElement();
+    context('isVisible이 false인 경우', () => {
+      given('initialState', () => true);
+      given('isVisible', () => false);
+
+      it(`${delay}ms 뒤에 아무것도 나타나지 않아야만 한다`, () => {
+        const { container } = renderDelayRenderComponent();
+
+        expect(container).toHaveTextContent(childComponentText);
+
+        act(() => {
+          jest.advanceTimersByTime(0);
+        });
+
+        expect(container).toBeEmptyDOMElement();
+      });
     });
   });
 });
