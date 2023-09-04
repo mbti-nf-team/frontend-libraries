@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.2.0
+
+### Minor Changes
+
+- 28a2a26: feat(hook): useUpdateEffect, useIsFirstRender hook 구현
+
 ## 2.1.0
 
 ### Minor Changes
