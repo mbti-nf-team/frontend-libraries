@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.3.0
+
+### Minor Changes
+
+- 88f5cb7: feat(@nf-team/react): useEffectOnce hook 구현
+
 ## 2.2.1
 
 ### Patch Changes
