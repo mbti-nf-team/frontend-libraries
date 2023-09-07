@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.2.1
+
+### Patch Changes
+
+- 0cd47bd: test(@nf-team/react): useIsFirstRender, useUpdateEffect hook 테스트 추가
+
 ## 2.2.0
 
 ### Minor Changes
