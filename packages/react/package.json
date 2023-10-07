@@ -1,6 +1,6 @@
 {
   "name": "@nf-team/react",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "nf-team 리액트 라이브러리",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
