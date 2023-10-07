@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.4.0
+
+### Minor Changes
+
+- 2f62d89: feat(useUnmount): useUnmount hook 구현 및 적용
+
 ## 2.3.0
 
 ### Minor Changes
