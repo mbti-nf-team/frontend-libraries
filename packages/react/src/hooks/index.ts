@@ -9,4 +9,5 @@ export { default as useLessThenScrollY } from './useLessThenScrollY';
 export { default as useResizeViewportHeight } from './useResizeViewportHeight';
 export { default as useThrottleCallback } from './useThrottleCallback';
 export { default as useTimeout } from './useTimeout';
+export { default as useUnmount } from './useUnmount';
 export { default as useUpdateEffect } from './useUpdateEffect';
