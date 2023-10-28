@@ -15,7 +15,7 @@ describe('useThrottleCallback', () => {
     jest.clearAllTimers();
   });
 
-  const useThrottleCallbackHook = () => renderHook(() => useThrottleCallback(callback, delay));
+  const useThrottleCallbackHook = () => renderHook(() => useThrottleCallback(callback, [], delay));
 
   context('delay 시간이 되지 않은 경우', () => {
     it('callback 함수가 호출되지 않아야만 한다', async () => {

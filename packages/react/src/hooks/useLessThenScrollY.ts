@@ -10,7 +10,7 @@ function useLessThenScrollY(targetScrollY = 0, delay = 200): boolean {
     [targetScrollY],
   );
 
-  const throttledCallback = useThrottleCallback(handleScrollAction, delay);
+  const throttledCallback = useThrottleCallback(handleScrollAction, [], delay);
 
   useEffect(() => {
     window.addEventListener('scroll', throttledCallback);
