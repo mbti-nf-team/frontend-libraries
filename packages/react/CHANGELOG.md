@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.4.2
+
+### Patch Changes
+
+- 0445800: fix(@nf-team/react): useThrottleCallback dependencyList type 에러 수정
+
 ## 2.4.1
 
 ### Patch Changes
