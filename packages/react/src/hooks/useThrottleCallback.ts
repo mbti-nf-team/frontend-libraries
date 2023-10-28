@@ -2,8 +2,8 @@ import { useCallback, useRef } from 'react';
 
 function useThrottleCallback<U extends never[]>(
   callback: (...args: U) => void,
-  delay: number,
   dependencyList: any[],
+  delay: number,
 ) {
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
