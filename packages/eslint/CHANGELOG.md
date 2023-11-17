@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- 4622145: chore(deps): typescript v5를 지원하도록 eslint버전 업데이트
+
 ## 2.0.2
 
 ### Patch Changes
