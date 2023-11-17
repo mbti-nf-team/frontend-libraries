@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 2.0.2
+
+### Patch Changes
+
+- f159f25: chore(deps): update @nf-team/eslint-config dependency
+
 ## 2.0.1
 
 ### Patch Changes

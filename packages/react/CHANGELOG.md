@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.4.3
+
+### Patch Changes
+
+- f159f25: chore(deps): update @nf-team/eslint-config dependency
+
 ## 2.4.2
 
 ### Patch Changes
