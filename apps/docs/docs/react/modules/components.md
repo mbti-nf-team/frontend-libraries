@@ -12,6 +12,17 @@ custom_edit_url: null
 
 ▸ **ClientOnly**(`«destructured»`): `ReactElement` \| ``null``
 
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `«destructured»` | `Object` |
+| › `children?` | `ReactNode` |
+
+#### Returns
+
+`ReactElement` \| ``null``
+
 **`Description`**
 
 Component의 mount 여부를 확인하여 mount가 된 경우, Component를 render해줍니다.
@@ -31,20 +42,9 @@ function ClintOnlyComponent() {
 }
 ```
 
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `«destructured»` | `Object` |
-| › `children?` | `ReactNode` |
-
-#### Returns
-
-`ReactElement` \| ``null``
-
 #### Defined in
 
-[packages/react/src/components/ClientOnly.tsx:22](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/react/src/components/ClientOnly.tsx#L22)
+[packages/react/src/components/ClientOnly.tsx:22](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/react/src/components/ClientOnly.tsx#L22)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `«destructured»` | `PropsWithChildren`<`Props`\> |
+| `«destructured»` | `PropsWithChildren`\<`Props`\> |
 
 #### Returns
 
@@ -64,13 +64,23 @@ ___
 
 #### Defined in
 
-[packages/react/src/components/DelayRenderComponent.tsx:12](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/react/src/components/DelayRenderComponent.tsx#L12)
+[packages/react/src/components/DelayRenderComponent.tsx:12](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/react/src/components/DelayRenderComponent.tsx#L12)
 
 ___
 
 ### GlobalPortal
 
 ▸ **GlobalPortal**(`elementId`): ``null`` \| `ReactPortal`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `elementId` | `PropsWithChildren`\<`Props`\> | 부모 엘리먼트가 아닌 다른 DOM 트리의 elementId값 |
+
+#### Returns
+
+``null`` \| `ReactPortal`
 
 **`Description`**
 
@@ -96,16 +106,6 @@ function SampleComponent() {
 }
 ```
 
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `elementId` | `PropsWithChildren`<`Props`\> | 부모 엘리먼트가 아닌 다른 DOM 트리의 elementId값 |
-
-#### Returns
-
-``null`` \| `ReactPortal`
-
 #### Defined in
 
-[packages/react/src/components/GlobalPortal.tsx:34](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/react/src/components/GlobalPortal.tsx#L34)
+[packages/react/src/components/GlobalPortal.tsx:34](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/react/src/components/GlobalPortal.tsx#L34)
