@@ -10,7 +10,7 @@ custom_edit_url: null
 
 ### checkEmpty
 
-▸ **checkEmpty**<`T`\>(`value?`): `T`[]
+▸ **checkEmpty**\<`T`\>(`value?`): `T`[]
 
 #### Type parameters
 
@@ -30,7 +30,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[utils.ts:44](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L44)
+[utils.ts:44](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L44)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[utils.ts:26](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L26)
+[utils.ts:26](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L26)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[utils.ts:34](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L34)
+[utils.ts:34](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L34)
 
 ___
 
@@ -91,13 +91,13 @@ ___
 
 #### Defined in
 
-[utils.ts:64](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L64)
+[utils.ts:64](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L64)
 
 ___
 
 ### isEmpty
 
-▸ **isEmpty**<`T`\>(`value?`): `boolean`
+▸ **isEmpty**\<`T`\>(`value?`): `boolean`
 
 #### Type parameters
 
@@ -117,13 +117,24 @@ ___
 
 #### Defined in
 
-[utils.ts:52](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L52)
+[utils.ts:52](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L52)
 
 ___
 
 ### removeNullable
 
 ▸ **removeNullable**(`value?`, `replacementValue?`): `string`
+
+#### Parameters
+
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `value?` | ``null`` \| `string` | 첫 번째 인자 `string` \| `null` \| `undefined` |
+| `replacementValue?` | `string` | 두 번째 인자에 값이 존재하는 경우 첫 번째 인자가 `null` 또는 `undefined`인 경우 두번째 인자로 문자열 대체 |
+
+#### Returns
+
+`string`
 
 **`Description`**
 
@@ -140,20 +151,9 @@ const result = removeNullable(value, 'newValue');
 console.log(result); // 'newValue';
 ```
 
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `value?` | ``null`` \| `string` | 첫 번째 인자 `string` \| `null` \| `undefined` |
-| `replacementValue?` | `string` | 두 번째 인자에 값이 존재하는 경우 첫 번째 인자가 `null` 또는 `undefined`인 경우 두번째 인자로 문자열 대체 |
-
-#### Returns
-
-`string`
-
 #### Defined in
 
-[utils.ts:14](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L14)
+[utils.ts:14](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L14)
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 #### Defined in
 
-[utils.ts:36](https://github.com/mbti-nf-team/frontend-libraries/blob/1903b2b/packages/core/src/utils.ts#L36)
+[utils.ts:36](https://github.com/mbti-nf-team/frontend-libraries/blob/dc51463/packages/core/src/utils.ts#L36)
