@@ -1,5 +1,11 @@
 # docs
 
+## 3.0.0
+
+### Major Changes
+
+- 4622145: chore(deps): docusaurus v3.0 릴리즈에 따른 마이그레이션
+
 ## 2.0.1
 
 ### Patch Changes

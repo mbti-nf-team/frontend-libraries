@@ -1,5 +1,5 @@
 {
   "extends": "@nf-team/tsconfig/react-library.json",
-  "include": [".", "@types"],
+  "include": [".", "@types", "./jest-setup.ts"],
   "exclude": ["dist", "build", "node_modules"]
 }

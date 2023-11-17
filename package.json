@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@turbo/gen": "^1.10.16",
-    "eslint": "^8.53.0",
     "tsup": "^7.1.0",
     "turbo": "^1.10.16"
   },
