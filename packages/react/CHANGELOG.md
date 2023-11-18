@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.4.4
+
+### Patch Changes
+
+- 0e935a0: fix(@nf-team/react): useThrottleCallback arg type error
+
 ## 2.4.3
 
 ### Patch Changes
