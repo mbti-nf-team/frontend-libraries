@@ -1,6 +1,6 @@
 import { DependencyList, useCallback, useRef } from 'react';
 
-function useThrottleCallback<U extends never[]>(
+function useThrottleCallback<U extends unknown[] = []>(
   callback: (...args: U) => void,
   dependencyList: DependencyList,
   delay: number,
