@@ -31,6 +31,11 @@ const FeatureList: FeatureItem[] = [
     title: '@nf-team/eslint-config',
     Thumbnail: DocusaurusReact,
   },
+  {
+    id: 4,
+    title: '@nf-team/stylelint-config',
+    Thumbnail: DocusaurusMountain,
+  },
 ];
 
 function HomepageFeatures(): JSX.Element {

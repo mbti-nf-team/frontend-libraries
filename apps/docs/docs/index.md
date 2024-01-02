@@ -9,3 +9,4 @@ custom_edit_url: null
 - [@nf-team/core](core/index.md)
 - [@nf-team/react](react/index.md)
 - [@nf-team/eslint-config](eslint-config/index.md)
+- [@nf-team/stylelint-config](stylelint-config/index.md)
