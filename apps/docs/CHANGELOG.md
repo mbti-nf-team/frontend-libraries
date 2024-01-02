@@ -1,5 +1,11 @@
 # docs
 
+## 4.1.0
+
+### Minor Changes
+
+- 6870490: feat(@nf-team/stylelint-config): postcss dependency 추가
+
 ## 4.0.0
 
 ### Major Changes
