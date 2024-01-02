@@ -3326,12 +3326,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nf-team/stylelint-config@workspace:packages/stylelint"
   dependencies:
+    postcss: "npm:8.4.32"
+    postcss-scss: "npm:4.0.9"
     stylelint: "npm:15.11.0"
     stylelint-config-recommended-scss: "npm:13.1.0"
     stylelint-config-standard: "npm:34.0.0"
     stylelint-config-standard-scss: "npm:11.1.0"
     stylelint-scss: "npm:5.3.2"
   peerDependencies:
+    postcss: 8
+    postcss-scss: 15
     stylelint: 15
     stylelint-config-recommended-scss: 13
     stylelint-config-standard: 34
@@ -14676,7 +14680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-scss@npm:^4.0.9":
+"postcss-scss@npm:4.0.9, postcss-scss@npm:^4.0.9":
   version: 4.0.9
   resolution: "postcss-scss@npm:4.0.9"
   peerDependencies:
@@ -14745,7 +14749,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.17, postcss@npm:^8.4.21, postcss@npm:^8.4.26, postcss@npm:^8.4.28":
+"postcss@npm:8.4.32, postcss@npm:^8.4.17, postcss@npm:^8.4.21, postcss@npm:^8.4.26, postcss@npm:^8.4.28":
   version: 8.4.32
   resolution: "postcss@npm:8.4.32"
   dependencies:

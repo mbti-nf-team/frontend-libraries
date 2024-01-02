@@ -10,17 +10,16 @@
 
 ## 🚀 Quick Overview
 
-Install `@nf-team/stylelint-config` dependency
+Install `stylelint`, `@nf-team/stylelint-config` dependency
 
 ```bash
-npm install --save-dev @nf-team/stylelint-config
+npm install --save-dev stylelint @nf-team/stylelint-config
 ```
 
 Add `@nf-team/stylelint-config` to `extends` in your `.stylelintrc`
 
 ```js
 module.exports = {
-  // ...
   extends: ['@nf-team/stylelint-config'],
   rules: {
     // ...
