@@ -1,6 +1,6 @@
 {
   "name": "@nf-team/stylelint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "nf-team stylelint config",
   "main": "index.js",
   "license": "MIT",

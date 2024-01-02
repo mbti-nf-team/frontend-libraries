@@ -1,5 +1,11 @@
 # docs
 
+## 4.0.0
+
+### Major Changes
+
+- 1c13d62: feat(@nf-team/stylelint-config): nf-team stylelint package 추가
+
 ## 3.0.0
 
 ### Major Changes
