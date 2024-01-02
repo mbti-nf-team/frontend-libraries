@@ -107,6 +107,12 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: 'docs/stylelint-config',
+          activeBasePath: 'docs/stylelint-config',
+          label: '@nf-team/stylelint-config',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/mbti-nf-team/frontend-libraries',
           label: 'GitHub',
           position: 'right',
@@ -131,6 +137,10 @@ const config: Config = {
               label: '@nf-team/eslint-config',
               to: '/docs/eslint-config',
             },
+            {
+              label: '@nf-team/stylelint-config',
+              to: '/docs/stylelint-config',
+            },
           ],
         },
         {
@@ -152,7 +162,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} @nf-team.`,
+      copyright: `Copyright © ${new Date().getFullYear()} @NFTeam.`,
     },
     prism: {
       theme: themes.github,

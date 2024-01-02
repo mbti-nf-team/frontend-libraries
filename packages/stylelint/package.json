@@ -1,0 +1,45 @@
+{
+  "name": "@nf-team/stylelint-config",
+  "version": "0.0.0",
+  "description": "nf-team stylelint config",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "dbd02169@naver.com",
+    "name": "SEUNGMIN SA (Harang)",
+    "url": "https://github.com/saseungmin"
+  },
+  "keywords": [
+    "nf-team",
+    "stylelint",
+    "stylelint-scss",
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbti-nf-team/frontend-libraries.git"
+  },
+  "homepage": "https://mbti-nf-team.github.io/frontend-libraries/docs/stylelint-config",
+  "dependencies": {
+    "stylelint": "15.11.0",
+    "stylelint-config-recommended-scss": "13.1.0",
+    "stylelint-config-standard": "34.0.0",
+    "stylelint-config-standard-scss": "11.1.0",
+    "stylelint-scss": "5.3.2"
+  },
+  "peerDependencies": {
+    "stylelint": "15",
+    "stylelint-config-recommended-scss": "13",
+    "stylelint-config-standard": "34",
+    "stylelint-config-standard-scss": "11",
+    "stylelint-scss": "5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "email": "dbd02169@naver.com",
+    "url": "https://github.com/mbti-nf-team/frontend-libraries/issues"
+  }
+}
