@@ -1,5 +1,11 @@
 # docs
 
+## 4.1.1
+
+### Patch Changes
+
+- a79110d: docs(@nf-team/stylelint-config): update readme
+
 ## 4.1.0
 
 ### Minor Changes
