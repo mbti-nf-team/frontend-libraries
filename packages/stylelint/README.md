@@ -27,12 +27,12 @@ module.exports = {
 };
 ```
 
-## 🤔 What eslint extensions does `@nf-team/stylelint-config` have?
+## 🤔 What stylelint extensions does `@nf-team/stylelint-config` have?
 - [stylelint-config-standard](https://www.npmjs.com/package/eslint-config-airbnb)
 - [stylelint-config-standard-scss](https://www.npmjs.com/package/eslint-config-airbnb-typescript)
 - [stylelint-config-recommended-scss](https://www.npmjs.com/package/eslint-plugin-react)
 
-[View more dependencies..](https://github.com/mbti-nf-team/frontend-libraries/blob/main/packages/stylelint/packagea.json)
+[View more dependencies..](https://github.com/mbti-nf-team/frontend-libraries/blob/main/packages/stylelint/package.json)
 
 ## 🐛 Bug reporting
 [Issues](https://github.com/mbti-nf-team/frontend-libraries/issues)
