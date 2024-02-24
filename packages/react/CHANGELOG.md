@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.5.0
+
+### Minor Changes
+
+- 86be66f: feat(@nf-team/react): useGeolocation hook 구현
+
 ## 2.4.4
 
 ### Patch Changes
