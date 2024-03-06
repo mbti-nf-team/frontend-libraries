@@ -49,6 +49,20 @@ const config: Config = {
         },
       },
     ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id: 'api-3',
+        entryPoints: ['../../packages/storage'],
+        entryPointStrategy: 'packages',
+        out: 'storage',
+        sidebar: {
+          fullNames: true,
+          position: 3,
+          categoryLabel: '@nf-team/storage',
+        },
+      },
+    ],
   ],
   markdown: {
     format: 'mdx',
@@ -101,6 +115,12 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: 'docs/storage',
+          activeBasePath: 'docs/storage',
+          label: '@nf-team/storage',
+          position: 'left',
+        },
+        {
           to: 'docs/eslint-config',
           activeBasePath: 'docs/eslint-config',
           label: '@nf-team/eslint-config',
@@ -132,6 +152,10 @@ const config: Config = {
             {
               label: '@nf-team/react',
               to: '/docs/react',
+            },
+            {
+              label: '@nf-team/storage',
+              to: '/docs/storage',
             },
             {
               label: '@nf-team/eslint-config',

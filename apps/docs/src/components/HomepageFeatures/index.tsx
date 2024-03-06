@@ -24,15 +24,19 @@ const FeatureList: FeatureItem[] = [
     id: 2,
     title: '@nf-team/react',
     Thumbnail: DocusaurusTree,
-
   },
   {
     id: 3,
-    title: '@nf-team/eslint-config',
+    title: '@nf-team/storage',
     Thumbnail: DocusaurusReact,
   },
   {
     id: 4,
+    title: '@nf-team/eslint-config',
+    Thumbnail: DocusaurusReact,
+  },
+  {
+    id: 5,
     title: '@nf-team/stylelint-config',
     Thumbnail: DocusaurusMountain,
   },

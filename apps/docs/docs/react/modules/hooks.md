@@ -32,7 +32,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useActionKeyEvent.ts#L6)
+[packages/react/src/hooks/useActionKeyEvent.ts:6](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useActionKeyEvent.ts#L6)
 
 ___
 
@@ -62,7 +62,7 @@ const [isOpen, openModal, closeModal, toggleModal] = useBoolean();
 
 #### Defined in
 
-[packages/react/src/hooks/useBoolean.ts:13](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useBoolean.ts#L13)
+[packages/react/src/hooks/useBoolean.ts:13](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useBoolean.ts#L13)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useDebounce.ts#L3)
+[packages/react/src/hooks/useDebounce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useDebounce.ts#L3)
 
 ___
 
@@ -109,7 +109,21 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useEffectOnce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useEffectOnce.ts#L3)
+[packages/react/src/hooks/useEffectOnce.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useEffectOnce.ts#L3)
+
+___
+
+### useGeolocation
+
+▸ **useGeolocation**(): [`GeoLocation`, () => `void`]
+
+#### Returns
+
+[`GeoLocation`, () => `void`]
+
+#### Defined in
+
+[packages/react/src/hooks/useGeolocation.ts:15](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useGeolocation.ts#L15)
 
 ___
 
@@ -123,7 +137,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useIsFirstRender.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useIsFirstRender.ts#L3)
+[packages/react/src/hooks/useIsFirstRender.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useIsFirstRender.ts#L3)
 
 ___
 
@@ -155,7 +169,7 @@ useEffect(() => {
 
 #### Defined in
 
-[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useIsMounted.ts#L18)
+[packages/react/src/hooks/useIsMounted.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useIsMounted.ts#L18)
 
 ___
 
@@ -207,7 +221,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useLessThenScrollY.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useLessThenScrollY.ts#L5)
+[packages/react/src/hooks/useLessThenScrollY.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useLessThenScrollY.ts#L5)
 
 ___
 
@@ -237,7 +251,7 @@ function SampleComponent() {
 
 #### Defined in
 
-[packages/react/src/hooks/useResizeViewportHeight.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useResizeViewportHeight.ts#L17)
+[packages/react/src/hooks/useResizeViewportHeight.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useResizeViewportHeight.ts#L17)
 
 ___
 
@@ -277,7 +291,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useThrottleCallback.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useThrottleCallback.ts#L3)
+[packages/react/src/hooks/useThrottleCallback.ts:3](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useThrottleCallback.ts#L3)
 
 ___
 
@@ -298,7 +312,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useTimeout.ts#L5)
+[packages/react/src/hooks/useTimeout.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useTimeout.ts#L5)
 
 ___
 
@@ -318,7 +332,7 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useUnmount.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useUnmount.ts#L5)
+[packages/react/src/hooks/useUnmount.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useUnmount.ts#L5)
 
 ___
 
@@ -339,4 +353,4 @@ ___
 
 #### Defined in
 
-[packages/react/src/hooks/useUpdateEffect.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/13386d7/packages/react/src/hooks/useUpdateEffect.ts#L5)
+[packages/react/src/hooks/useUpdateEffect.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/react/src/hooks/useUpdateEffect.ts#L5)

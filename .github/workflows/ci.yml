@@ -10,7 +10,7 @@ env:
   CACHED_DEPENDENCY_PATHS: |
     ${{ github.workspace }}/.yarn/cache
     ${{ github.workspace }}/node_modules
-  DEFAULT_NODE_VERSION: '18'
+  DEFAULT_NODE_VERSION: '20'
 
 jobs:
   job_install_dependencies:
