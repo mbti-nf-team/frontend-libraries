@@ -1,5 +1,11 @@
 # docs
 
+## 5.0.0
+
+### Major Changes
+
+- 06d4007: docs: @nf-team/storage package typedocs 추가
+
 ## 4.1.1
 
 ### Patch Changes
