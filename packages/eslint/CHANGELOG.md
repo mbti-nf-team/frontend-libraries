@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 3.0.0
+
+### Major Changes
+
+- d45a18c: feat(@nf-team/eslint-config): upgrade eslint typescript v7 dependencies
+
 ## 2.1.0
 
 ### Minor Changes
