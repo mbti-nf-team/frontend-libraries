@@ -30,7 +30,7 @@ custom_edit_url: null
 
 #### Defined in
 
-[localStorage.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/localStorage.ts#L5)
+[localStorage.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/localStorage.ts#L5)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[sessionStorage.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/sessionStorage.ts#L5)
+[sessionStorage.ts:5](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/sessionStorage.ts#L5)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[localStorage.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/localStorage.ts#L20)
+[localStorage.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/localStorage.ts#L20)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[sessionStorage.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/sessionStorage.ts#L20)
+[sessionStorage.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/sessionStorage.ts#L20)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[localStorage.ts:1](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/localStorage.ts#L1)
+[localStorage.ts:1](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/localStorage.ts#L1)
 
 ___
 
@@ -138,4 +138,4 @@ ___
 
 #### Defined in
 
-[sessionStorage.ts:1](https://github.com/mbti-nf-team/frontend-libraries/blob/c804851/packages/storage/src/sessionStorage.ts#L1)
+[sessionStorage.ts:1](https://github.com/mbti-nf-team/frontend-libraries/blob/5614e38/packages/storage/src/sessionStorage.ts#L1)
