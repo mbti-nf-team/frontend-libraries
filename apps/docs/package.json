@@ -34,7 +34,7 @@
     "@types/react-dom": "^18.2.0",
     "@typescript-eslint/parser": "^6.11.0",
     "docusaurus-plugin-typedoc": "^0.21.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.56.0",
     "typedoc": "^0.25.4",
     "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "5.1.3"
