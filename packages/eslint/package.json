@@ -39,7 +39,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "eslint": "^8.0.0",
+    "eslint": ">=8.56.0",
     "eslint-plugin-import": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-react": "^7.0.0",
