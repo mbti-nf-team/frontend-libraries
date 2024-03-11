@@ -1,5 +1,11 @@
 # docs
 
+## 5.0.1
+
+### Patch Changes
+
+- 75c14d0: chore(docs): version update eslint
+
 ## 5.0.0
 
 ### Major Changes

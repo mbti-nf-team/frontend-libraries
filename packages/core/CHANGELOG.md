@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 2.0.3
+
+### Patch Changes
+
+- 75c14d0: chore(@nf-team/core): version update eslint
+
 ## 2.0.2
 
 ### Patch Changes
