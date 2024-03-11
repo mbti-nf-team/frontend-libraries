@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.5.1
+
+### Patch Changes
+
+- 75c14d0: chore(@nf-team/react): version update eslint
+
 ## 2.5.0
 
 ### Minor Changes

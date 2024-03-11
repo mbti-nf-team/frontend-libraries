@@ -1,5 +1,11 @@
 # @nf-team/storage
 
+## 1.0.1
+
+### Patch Changes
+
+- 75c14d0: chore(@nf-team/storage): version update eslint
+
 ## 1.0.0
 
 ### Major Changes

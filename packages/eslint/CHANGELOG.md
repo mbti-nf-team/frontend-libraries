@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 3.0.1
+
+### Patch Changes
+
+- 75c14d0: chore(@nf-team/eslint-config): version update eslint
+
 ## 3.0.0
 
 ### Major Changes
