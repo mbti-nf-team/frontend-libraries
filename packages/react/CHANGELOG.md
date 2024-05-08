@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.6.0
+
+### Minor Changes
+
+- 3570574: chore(deps): update react, docusaurus dependencies
+
 ## 2.5.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # docs
 
+## 5.1.0
+
+### Minor Changes
+
+- 3570574: chore(deps): update react, docusaurus dependencies
+
 ## 5.0.1
 
 ### Patch Changes
