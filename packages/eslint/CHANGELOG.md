@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 3.2.0
+
+### Minor Changes
+
+- 1291b17: chore(deps): turbo repo & tsup dependencies major update
+
 ## 3.1.0
 
 ### Minor Changes

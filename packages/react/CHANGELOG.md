@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.7.0
+
+### Minor Changes
+
+- 1291b17: chore(deps): turbo repo & tsup dependencies major update
+
 ## 2.6.0
 
 ### Minor Changes
