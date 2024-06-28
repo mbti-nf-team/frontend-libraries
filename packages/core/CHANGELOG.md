@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 2.1.0
+
+### Minor Changes
+
+- 1291b17: chore(deps): turbo repo & tsup dependencies major update
+
 ## 2.0.3
 
 ### Patch Changes

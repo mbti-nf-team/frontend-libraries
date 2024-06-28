@@ -1,5 +1,11 @@
 # @nf-team/storage
 
+## 1.1.0
+
+### Minor Changes
+
+- 1291b17: chore(deps): turbo repo & tsup dependencies major update
+
 ## 1.0.1
 
 ### Patch Changes
