@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 3.3.0
+
+### Minor Changes
+
+- 7df2607: chore(deps): update eslint-plugin-unused-imports v4
+
 ## 3.2.0
 
 ### Minor Changes
