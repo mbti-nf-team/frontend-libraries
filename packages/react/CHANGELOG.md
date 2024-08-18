@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.7.1
+
+### Patch Changes
+
+- 5913211: chore(@nf-team/react): jest 실행 시 react버전 이슈로 console.error 나는 이슈 수정
+
 ## 2.7.0
 
 ### Minor Changes
