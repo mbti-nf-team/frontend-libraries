@@ -12,10 +12,21 @@
         "dist/**"
       ]
     },
-    "lint": {},
+    "lint": {
+      "inputs": [
+        "**/*.{js,jsx,ts,tsx}"
+      ]
+    },
+    "test:coverage": {
+      "outputs": ["coverage/**"],
+      "inputs": [
+        "**/*.test.{tsx,ts}"
+      ]
+    },
     "dev": {
+      "persistent": true,
       "cache": false,
-      "persistent": true
+      "interactive": true
     }
   }
 }
