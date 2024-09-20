@@ -1,6 +1,6 @@
 ---
 id: "modules"
-title: "@nf-team/react - v2.5.0"
+title: "@nf-team/react - v2.7.1"
 sidebar_label: "Exports"
 sidebar_position: 0.5
 custom_edit_url: null

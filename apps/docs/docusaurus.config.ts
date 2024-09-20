@@ -63,6 +63,20 @@ const config: Config = {
         },
       },
     ],
+    [
+      'docusaurus-plugin-typedoc',
+      {
+        id: 'api-4',
+        entryPoints: ['../../packages/fetch'],
+        entryPointStrategy: 'packages',
+        out: 'fetch',
+        sidebar: {
+          fullNames: true,
+          position: 4,
+          categoryLabel: '@nf-team/fetch',
+        },
+      },
+    ],
   ],
   markdown: {
     format: 'mdx',
@@ -133,6 +147,12 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: 'docs/fetch',
+          activeBasePath: 'docs/fetch',
+          label: '@nf-team/fetch',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/mbti-nf-team/frontend-libraries',
           label: 'GitHub',
           position: 'right',
@@ -164,6 +184,10 @@ const config: Config = {
             {
               label: '@nf-team/stylelint-config',
               to: '/docs/stylelint-config',
+            },
+            {
+              label: '@nf-team/fetch',
+              to: '/docs/fetch',
             },
           ],
         },
