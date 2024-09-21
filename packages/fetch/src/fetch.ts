@@ -1,22 +1,22 @@
 import QueryString from 'qs';
 
-export type Method =
-    | 'get' | 'GET'
-    | 'delete' | 'DELETE'
-    | 'head' | 'HEAD'
-    | 'options' | 'OPTIONS'
-    | 'post' | 'POST'
-    | 'put' | 'PUT'
-    | 'patch' | 'PATCH'
-    | 'purge' | 'PURGE'
-    | 'link' | 'LINK'
-    | 'unlink' | 'UNLINK';
+const TIME_OUT = 30000;
+
+export class FetchError extends Error {
+  constructor(public status: number, message: string) {
+    super(message);
+    this.name = 'FetchError';
+  }
+}
+
+export type Method = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
 
 export interface FetchApiRequest<K = unknown> {
   url: string;
   params?: K;
   method?: Method;
   body?: unknown;
+  timeout?: number;
   config?: Omit<RequestInit, 'method' | 'body'>;
 }
 
@@ -30,21 +30,46 @@ async function fetchApi<T, K = unknown>({
   params,
   body,
   config = {},
+  timeout = TIME_OUT,
   method = 'GET',
 }: FetchApiRequest<K>): Promise<T> {
-  const response = await fetch(`${url}${params ? `?${paramsSerializer(params)}` : ''}`, {
-    ...config,
-    body: body ? JSON.stringify(body) : undefined,
-    method,
-    headers: body ? {
-      'Content-Type': 'application/json',
-      ...config.headers,
-    } : config.headers,
-  });
+  const controller = new AbortController();
+  const id = setTimeout(() => controller.abort(), timeout);
 
-  const data = await response.json() as T;
+  try {
+    const response = await fetch(`${url}${params ? `?${paramsSerializer(params)}` : ''}`, {
+      ...config,
+      body: body ? JSON.stringify(body) : undefined,
+      method,
+      signal: controller.signal,
+      headers: body ? {
+        'Content-Type': 'application/json',
+        ...config.headers,
+      } : config.headers,
+    });
 
-  return data;
+    clearTimeout(id);
+
+    if (!response.ok) {
+      const errorBody = await response.json().catch(() => ({}));
+
+      throw new FetchError(response.status, errorBody?.message || response.statusText);
+    }
+
+    const data = await response.json() as T;
+
+    return data;
+  } catch (error) {
+    if (error instanceof FetchError) {
+      throw error;
+    }
+
+    if (error instanceof Error && error.name === 'AbortError') {
+      throw new FetchError(408, 'Request Timeout');
+    }
+
+    throw new FetchError(500, 'Internal Server Error');
+  }
 }
 
 export default fetchApi;

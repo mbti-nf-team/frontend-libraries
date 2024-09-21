@@ -1,3 +1,4 @@
 export {
-  default as fetchApi, type FetchApiRequest, type Method, paramsSerializer,
+  default as fetchApi, type FetchApiRequest, FetchError,
+  type Method, paramsSerializer,
 } from './fetch';
