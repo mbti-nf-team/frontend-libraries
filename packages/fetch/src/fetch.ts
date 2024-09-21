@@ -65,10 +65,10 @@ async function fetchApi<T, K = unknown>({
     }
 
     if (error instanceof Error && error.name === 'AbortError') {
-      throw new FetchError(408, '서버 응답 시간이 초과되었습니다.');
+      throw new FetchError(408, 'Request Timeout');
     }
 
-    throw new FetchError(500, '서버 에러가 발생했습니다.');
+    throw new FetchError(500, 'Internal Server Error');
   }
 }
 
