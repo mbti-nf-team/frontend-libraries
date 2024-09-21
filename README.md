@@ -17,6 +17,8 @@
   - [npm](https://www.npmjs.com/package/@nf-team/eslint-config)
 - [@nf-team/stylelint-config](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/stylelint)
   - [npm](https://www.npmjs.com/package/@nf-team/stylelint-config)
+- [@nf-team/fetch](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/fetch)
+  - [npm](https://www.npmjs.com/package/@nf-team/fetch)
 
 [Check out our @nf-team frontend libraries docs.](https://mbti-nf-team.github.io/frontend-libraries/)
 
