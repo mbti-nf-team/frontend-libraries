@@ -1,5 +1,11 @@
 # docs
 
+## 7.0.0
+
+### Major Changes
+
+- 1a1e09f: chore(docs): typedoc-plugin-markdown v4 업데이트
+
 ## 6.0.0
 
 ### Major Changes
