@@ -1,4 +1,0 @@
-// @ts-check
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const typedocSidebar = { items: [{"type":"category","label":"Classes","items":[{"type":"doc","id":"classes/FetchError","label":"FetchError"}]},{"type":"category","label":"Interfaces","items":[{"type":"doc","id":"interfaces/FetchApiRequest","label":"FetchApiRequest"}]},{"type":"category","label":"Type Aliases","items":[{"type":"doc","id":"type-aliases/Method","label":"Method"}]},{"type":"category","label":"Functions","items":[{"type":"doc","id":"functions/fetchApi","label":"fetchApi"},{"type":"doc","id":"functions/paramsSerializer","label":"paramsSerializer"}]}]};
-module.exports = typedocSidebar.items;

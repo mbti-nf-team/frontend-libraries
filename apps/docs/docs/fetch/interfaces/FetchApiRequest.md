@@ -1,63 +1,65 @@
----
-id: "FetchApiRequest"
-title: "Interface: FetchApiRequest<K>"
-sidebar_label: "FetchApiRequest"
-sidebar_position: 0
-custom_edit_url: null
----
+# Interface: FetchApiRequest\<K\>
 
-## Type parameters
+## Type Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `K` | `unknown` |
+• **K** = `unknown`
 
 ## Properties
 
-### body
+### body?
 
-• `Optional` **body**: `unknown`
-
-#### Defined in
-
-[fetch.ts:19](https://github.com/mbti-nf-team/frontend-libraries/blob/35d6e12/packages/fetch/src/fetch.ts#L19)
-
-___
-
-### config
-
-• `Optional` **config**: `Omit`\<`RequestInit`, ``"method"`` \| ``"body"``\>
+> `optional` **body**: `unknown`
 
 #### Defined in
 
-[fetch.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/35d6e12/packages/fetch/src/fetch.ts#L20)
+[packages/fetch/src/fetch.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L18)
 
-___
+***
 
-### method
+### config?
 
-• `Optional` **method**: [`Method`](../modules.md#method)
-
-#### Defined in
-
-[fetch.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/35d6e12/packages/fetch/src/fetch.ts#L18)
-
-___
-
-### params
-
-• `Optional` **params**: `K`
+> `optional` **config**: `Omit`\<`RequestInit`, `"method"` \| `"body"`\>
 
 #### Defined in
 
-[fetch.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/35d6e12/packages/fetch/src/fetch.ts#L17)
+[packages/fetch/src/fetch.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L20)
 
-___
+***
+
+### method?
+
+> `optional` **method**: [`Method`](../type-aliases/Method.md)
+
+#### Defined in
+
+[packages/fetch/src/fetch.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L17)
+
+***
+
+### params?
+
+> `optional` **params**: `K`
+
+#### Defined in
+
+[packages/fetch/src/fetch.ts:16](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L16)
+
+***
+
+### timeout?
+
+> `optional` **timeout**: `number`
+
+#### Defined in
+
+[packages/fetch/src/fetch.ts:19](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L19)
+
+***
 
 ### url
 
-• **url**: `string`
+> **url**: `string`
 
 #### Defined in
 
-[fetch.ts:16](https://github.com/mbti-nf-team/frontend-libraries/blob/35d6e12/packages/fetch/src/fetch.ts#L16)
+[packages/fetch/src/fetch.ts:15](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L15)

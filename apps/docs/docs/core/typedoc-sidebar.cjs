@@ -1,0 +1,4 @@
+// @ts-check
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const typedocSidebar = { items: [{"type":"category","label":"Functions","items":[{"type":"doc","id":"core/functions/checkEmpty","label":"checkEmpty"},{"type":"doc","id":"core/functions/checkNumber","label":"checkNumber"},{"type":"doc","id":"core/functions/emptyAThenB","label":"emptyAThenB"},{"type":"doc","id":"core/functions/generateArrayOfNumber","label":"generateArrayOfNumber"},{"type":"doc","id":"core/functions/isEmpty","label":"isEmpty"},{"type":"doc","id":"core/functions/removeNullable","label":"removeNullable"},{"type":"doc","id":"core/functions/trueOrFalse","label":"trueOrFalse"}]}]};
+module.exports = typedocSidebar.items;
