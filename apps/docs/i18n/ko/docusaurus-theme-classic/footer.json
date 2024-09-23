@@ -1,0 +1,50 @@
+{
+  "link.title.Libraries": {
+    "message": "Libraries",
+    "description": "The title of the footer links column with title=Libraries in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.@nf-team/core": {
+    "message": "@nf-team/core",
+    "description": "The label of footer link with label=@nf-team/core linking to /docs/core"
+  },
+  "link.item.label.@nf-team/react": {
+    "message": "@nf-team/react",
+    "description": "The label of footer link with label=@nf-team/react linking to /docs/react"
+  },
+  "link.item.label.@nf-team/storage": {
+    "message": "@nf-team/storage",
+    "description": "The label of footer link with label=@nf-team/storage linking to /docs/storage"
+  },
+  "link.item.label.@nf-team/eslint-config": {
+    "message": "@nf-team/eslint-config",
+    "description": "The label of footer link with label=@nf-team/eslint-config linking to /docs/eslint-config"
+  },
+  "link.item.label.@nf-team/stylelint-config": {
+    "message": "@nf-team/stylelint-config",
+    "description": "The label of footer link with label=@nf-team/stylelint-config linking to /docs/stylelint-config"
+  },
+  "link.item.label.@nf-team/fetch": {
+    "message": "@nf-team/fetch",
+    "description": "The label of footer link with label=@nf-team/fetch linking to /docs/fetch"
+  },
+  "link.item.label.Organization": {
+    "message": "Organization",
+    "description": "The label of footer link with label=Organization linking to https://github.com/mbti-nf-team"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/mbti-nf-team/frontend-libraries"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 @NFTeam.",
+    "description": "The footer copyright"
+  }
+}
