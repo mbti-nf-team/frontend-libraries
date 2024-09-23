@@ -8,10 +8,8 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   url: 'https://mbti-nf-team.github.io',
   baseUrl: '/frontend-libraries/',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mbti-nf-team', // Usually your GitHub org/user name.
-  projectName: 'frontend-libraries', // Usually your repo name.
+  organizationName: 'mbti-nf-team',
+  projectName: 'frontend-libraries',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
@@ -24,57 +22,37 @@ const config: Config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        id: 'api-1',
+        id: 'core',
         entryPoints: ['../../packages/core'],
         entryPointStrategy: 'packages',
-        out: 'core',
-        sidebar: {
-          fullNames: true,
-          position: 1,
-          categoryLabel: '@nf-team/core',
-        },
+        out: './docs/core',
       },
     ],
     [
       'docusaurus-plugin-typedoc',
       {
-        id: 'api-2',
+        id: 'react',
         entryPoints: ['../../packages/react'],
         entryPointStrategy: 'packages',
-        out: 'react',
-        sidebar: {
-          fullNames: true,
-          position: 2,
-          categoryLabel: '@nf-team/react',
-        },
+        out: './docs/react',
       },
     ],
     [
       'docusaurus-plugin-typedoc',
       {
-        id: 'api-3',
+        id: 'storage',
         entryPoints: ['../../packages/storage'],
         entryPointStrategy: 'packages',
-        out: 'storage',
-        sidebar: {
-          fullNames: true,
-          position: 3,
-          categoryLabel: '@nf-team/storage',
-        },
+        out: './docs/storage',
       },
     ],
     [
       'docusaurus-plugin-typedoc',
       {
-        id: 'api-4',
+        id: 'fetch',
         entryPoints: ['../../packages/fetch'],
         entryPointStrategy: 'packages',
-        out: 'fetch',
-        sidebar: {
-          fullNames: true,
-          position: 4,
-          categoryLabel: '@nf-team/fetch',
-        },
+        out: './docs/fetch',
       },
     ],
   ],

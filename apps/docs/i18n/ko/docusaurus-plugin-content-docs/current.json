@@ -3,28 +3,184 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.@nf-team/core": {
+  "sidebar.typedocSidebar.category.@nf-team/core": {
     "message": "@nf-team/core",
-    "description": "The label for category @nf-team/core in sidebar sidebar"
+    "description": "The label for category @nf-team/core in sidebar typedocSidebar"
   },
-  "sidebar.sidebar.category.@nf-team/react": {
+  "sidebar.typedocSidebar.category.Functions": {
+    "message": "Functions",
+    "description": "The label for category Functions in sidebar typedocSidebar"
+  },
+  "sidebar.typedocSidebar.category.@nf-team/react": {
     "message": "@nf-team/react",
-    "description": "The label for category @nf-team/react in sidebar sidebar"
+    "description": "The label for category @nf-team/react in sidebar typedocSidebar"
   },
-  "sidebar.sidebar.category.Modules": {
-    "message": "Modules",
-    "description": "The label for category Modules in sidebar sidebar"
+  "sidebar.typedocSidebar.category.components": {
+    "message": "components",
+    "description": "The label for category components in sidebar typedocSidebar"
   },
-  "sidebar.sidebar.category.@nf-team/storage": {
-    "message": "@nf-team/storage",
-    "description": "The label for category @nf-team/storage in sidebar sidebar"
+  "sidebar.typedocSidebar.category.hooks": {
+    "message": "hooks",
+    "description": "The label for category hooks in sidebar typedocSidebar"
   },
-  "sidebar.sidebar.category.@nf-team/fetch": {
+  "sidebar.typedocSidebar.category.@nf-team/fetch": {
     "message": "@nf-team/fetch",
-    "description": "The label for category @nf-team/fetch in sidebar sidebar"
+    "description": "The label for category @nf-team/fetch in sidebar typedocSidebar"
   },
-  "sidebar.sidebar.category.Interfaces": {
+  "sidebar.typedocSidebar.category.Classes": {
+    "message": "Classes",
+    "description": "The label for category Classes in sidebar typedocSidebar"
+  },
+  "sidebar.typedocSidebar.category.Interfaces": {
     "message": "Interfaces",
-    "description": "The label for category Interfaces in sidebar sidebar"
+    "description": "The label for category Interfaces in sidebar typedocSidebar"
+  },
+  "sidebar.typedocSidebar.category.Type Aliases": {
+    "message": "Type Aliases",
+    "description": "The label for category Type Aliases in sidebar typedocSidebar"
+  },
+  "sidebar.typedocSidebar.category.@nf-team/storage": {
+    "message": "@nf-team/storage",
+    "description": "The label for category @nf-team/storage in sidebar typedocSidebar"
+  },
+  "sidebar.typedocSidebar.doc.checkEmpty": {
+    "message": "checkEmpty",
+    "description": "The label for the doc item checkEmpty in sidebar typedocSidebar, linking to the doc core/functions/checkEmpty"
+  },
+  "sidebar.typedocSidebar.doc.checkNumber": {
+    "message": "checkNumber",
+    "description": "The label for the doc item checkNumber in sidebar typedocSidebar, linking to the doc core/functions/checkNumber"
+  },
+  "sidebar.typedocSidebar.doc.emptyAThenB": {
+    "message": "emptyAThenB",
+    "description": "The label for the doc item emptyAThenB in sidebar typedocSidebar, linking to the doc core/functions/emptyAThenB"
+  },
+  "sidebar.typedocSidebar.doc.generateArrayOfNumber": {
+    "message": "generateArrayOfNumber",
+    "description": "The label for the doc item generateArrayOfNumber in sidebar typedocSidebar, linking to the doc core/functions/generateArrayOfNumber"
+  },
+  "sidebar.typedocSidebar.doc.isEmpty": {
+    "message": "isEmpty",
+    "description": "The label for the doc item isEmpty in sidebar typedocSidebar, linking to the doc core/functions/isEmpty"
+  },
+  "sidebar.typedocSidebar.doc.removeNullable": {
+    "message": "removeNullable",
+    "description": "The label for the doc item removeNullable in sidebar typedocSidebar, linking to the doc core/functions/removeNullable"
+  },
+  "sidebar.typedocSidebar.doc.trueOrFalse": {
+    "message": "trueOrFalse",
+    "description": "The label for the doc item trueOrFalse in sidebar typedocSidebar, linking to the doc core/functions/trueOrFalse"
+  },
+  "sidebar.typedocSidebar.doc.ClientOnly": {
+    "message": "ClientOnly",
+    "description": "The label for the doc item ClientOnly in sidebar typedocSidebar, linking to the doc react/components/functions/ClientOnly"
+  },
+  "sidebar.typedocSidebar.doc.DelayRenderComponent": {
+    "message": "DelayRenderComponent",
+    "description": "The label for the doc item DelayRenderComponent in sidebar typedocSidebar, linking to the doc react/components/functions/DelayRenderComponent"
+  },
+  "sidebar.typedocSidebar.doc.GlobalPortal": {
+    "message": "GlobalPortal",
+    "description": "The label for the doc item GlobalPortal in sidebar typedocSidebar, linking to the doc react/components/functions/GlobalPortal"
+  },
+  "sidebar.typedocSidebar.doc.useActionKeyEvent": {
+    "message": "useActionKeyEvent",
+    "description": "The label for the doc item useActionKeyEvent in sidebar typedocSidebar, linking to the doc react/hooks/functions/useActionKeyEvent"
+  },
+  "sidebar.typedocSidebar.doc.useBoolean": {
+    "message": "useBoolean",
+    "description": "The label for the doc item useBoolean in sidebar typedocSidebar, linking to the doc react/hooks/functions/useBoolean"
+  },
+  "sidebar.typedocSidebar.doc.useDebounce": {
+    "message": "useDebounce",
+    "description": "The label for the doc item useDebounce in sidebar typedocSidebar, linking to the doc react/hooks/functions/useDebounce"
+  },
+  "sidebar.typedocSidebar.doc.useEffectOnce": {
+    "message": "useEffectOnce",
+    "description": "The label for the doc item useEffectOnce in sidebar typedocSidebar, linking to the doc react/hooks/functions/useEffectOnce"
+  },
+  "sidebar.typedocSidebar.doc.useGeolocation": {
+    "message": "useGeolocation",
+    "description": "The label for the doc item useGeolocation in sidebar typedocSidebar, linking to the doc react/hooks/functions/useGeolocation"
+  },
+  "sidebar.typedocSidebar.doc.useIsFirstRender": {
+    "message": "useIsFirstRender",
+    "description": "The label for the doc item useIsFirstRender in sidebar typedocSidebar, linking to the doc react/hooks/functions/useIsFirstRender"
+  },
+  "sidebar.typedocSidebar.doc.useIsMounted": {
+    "message": "useIsMounted",
+    "description": "The label for the doc item useIsMounted in sidebar typedocSidebar, linking to the doc react/hooks/functions/useIsMounted"
+  },
+  "sidebar.typedocSidebar.doc.useIsomorphicLayoutEffect": {
+    "message": "useIsomorphicLayoutEffect",
+    "description": "The label for the doc item useIsomorphicLayoutEffect in sidebar typedocSidebar, linking to the doc react/hooks/functions/useIsomorphicLayoutEffect"
+  },
+  "sidebar.typedocSidebar.doc.useLessThenScrollY": {
+    "message": "useLessThenScrollY",
+    "description": "The label for the doc item useLessThenScrollY in sidebar typedocSidebar, linking to the doc react/hooks/functions/useLessThenScrollY"
+  },
+  "sidebar.typedocSidebar.doc.useResizeViewportHeight": {
+    "message": "useResizeViewportHeight",
+    "description": "The label for the doc item useResizeViewportHeight in sidebar typedocSidebar, linking to the doc react/hooks/functions/useResizeViewportHeight"
+  },
+  "sidebar.typedocSidebar.doc.useThrottleCallback": {
+    "message": "useThrottleCallback",
+    "description": "The label for the doc item useThrottleCallback in sidebar typedocSidebar, linking to the doc react/hooks/functions/useThrottleCallback"
+  },
+  "sidebar.typedocSidebar.doc.useTimeout": {
+    "message": "useTimeout",
+    "description": "The label for the doc item useTimeout in sidebar typedocSidebar, linking to the doc react/hooks/functions/useTimeout"
+  },
+  "sidebar.typedocSidebar.doc.useUnmount": {
+    "message": "useUnmount",
+    "description": "The label for the doc item useUnmount in sidebar typedocSidebar, linking to the doc react/hooks/functions/useUnmount"
+  },
+  "sidebar.typedocSidebar.doc.useUpdateEffect": {
+    "message": "useUpdateEffect",
+    "description": "The label for the doc item useUpdateEffect in sidebar typedocSidebar, linking to the doc react/hooks/functions/useUpdateEffect"
+  },
+  "sidebar.typedocSidebar.doc.FetchError": {
+    "message": "FetchError",
+    "description": "The label for the doc item FetchError in sidebar typedocSidebar, linking to the doc fetch/classes/FetchError"
+  },
+  "sidebar.typedocSidebar.doc.FetchApiRequest": {
+    "message": "FetchApiRequest",
+    "description": "The label for the doc item FetchApiRequest in sidebar typedocSidebar, linking to the doc fetch/interfaces/FetchApiRequest"
+  },
+  "sidebar.typedocSidebar.doc.Method": {
+    "message": "Method",
+    "description": "The label for the doc item Method in sidebar typedocSidebar, linking to the doc fetch/type-aliases/Method"
+  },
+  "sidebar.typedocSidebar.doc.fetchApi": {
+    "message": "fetchApi",
+    "description": "The label for the doc item fetchApi in sidebar typedocSidebar, linking to the doc fetch/functions/fetchApi"
+  },
+  "sidebar.typedocSidebar.doc.paramsSerializer": {
+    "message": "paramsSerializer",
+    "description": "The label for the doc item paramsSerializer in sidebar typedocSidebar, linking to the doc fetch/functions/paramsSerializer"
+  },
+  "sidebar.typedocSidebar.doc.getLocalStorageItem": {
+    "message": "getLocalStorageItem",
+    "description": "The label for the doc item getLocalStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/getLocalStorageItem"
+  },
+  "sidebar.typedocSidebar.doc.getSessionStorageItem": {
+    "message": "getSessionStorageItem",
+    "description": "The label for the doc item getSessionStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/getSessionStorageItem"
+  },
+  "sidebar.typedocSidebar.doc.removeLocalStorageItem": {
+    "message": "removeLocalStorageItem",
+    "description": "The label for the doc item removeLocalStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/removeLocalStorageItem"
+  },
+  "sidebar.typedocSidebar.doc.removeSessionStorageItem": {
+    "message": "removeSessionStorageItem",
+    "description": "The label for the doc item removeSessionStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/removeSessionStorageItem"
+  },
+  "sidebar.typedocSidebar.doc.setLocalStorageItem": {
+    "message": "setLocalStorageItem",
+    "description": "The label for the doc item setLocalStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/setLocalStorageItem"
+  },
+  "sidebar.typedocSidebar.doc.setSessionStorageItem": {
+    "message": "setSessionStorageItem",
+    "description": "The label for the doc item setSessionStorageItem in sidebar typedocSidebar, linking to the doc storage/functions/setSessionStorageItem"
   }
 }

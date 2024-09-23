@@ -1,4 +1,0 @@
-// @ts-check
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
-const typedocSidebar = { items: [{"type":"category","label":"Functions","items":[{"type":"doc","id":"functions/getLocalStorageItem","label":"getLocalStorageItem"},{"type":"doc","id":"functions/getSessionStorageItem","label":"getSessionStorageItem"},{"type":"doc","id":"functions/removeLocalStorageItem","label":"removeLocalStorageItem"},{"type":"doc","id":"functions/removeSessionStorageItem","label":"removeSessionStorageItem"},{"type":"doc","id":"functions/setLocalStorageItem","label":"setLocalStorageItem"},{"type":"doc","id":"functions/setSessionStorageItem","label":"setSessionStorageItem"}]}]};
-module.exports = typedocSidebar.items;

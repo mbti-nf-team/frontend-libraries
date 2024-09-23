@@ -1,11 +1,3 @@
----
-id: "index"
-title: "@nf-team/react"
-sidebar_label: "Readme"
-sidebar_position: 0
-custom_edit_url: null
----
-
 # @nf-team/react
 
 <a href="https://github.com/mbti-nf-team/frontend-libraries/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">
