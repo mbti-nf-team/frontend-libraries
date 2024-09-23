@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.@nf-team/core": {
+    "message": "@nf-team/core",
+    "description": "The label for category @nf-team/core in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.@nf-team/react": {
+    "message": "@nf-team/react",
+    "description": "The label for category @nf-team/react in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Modules": {
+    "message": "Modules",
+    "description": "The label for category Modules in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.@nf-team/storage": {
+    "message": "@nf-team/storage",
+    "description": "The label for category @nf-team/storage in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.@nf-team/fetch": {
+    "message": "@nf-team/fetch",
+    "description": "The label for category @nf-team/fetch in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Interfaces": {
+    "message": "Interfaces",
+    "description": "The label for category Interfaces in sidebar sidebar"
+  }
+}

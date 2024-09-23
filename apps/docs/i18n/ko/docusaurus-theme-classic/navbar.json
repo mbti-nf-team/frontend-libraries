@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "@nf-team/frontend-libraries",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.@nf-team/core": {
+    "message": "@nf-team/core",
+    "description": "Navbar item with label @nf-team/core"
+  },
+  "item.label.@nf-team/react": {
+    "message": "@nf-team/react",
+    "description": "Navbar item with label @nf-team/react"
+  },
+  "item.label.@nf-team/storage": {
+    "message": "@nf-team/storage",
+    "description": "Navbar item with label @nf-team/storage"
+  },
+  "item.label.@nf-team/eslint-config": {
+    "message": "@nf-team/eslint-config",
+    "description": "Navbar item with label @nf-team/eslint-config"
+  },
+  "item.label.@nf-team/stylelint-config": {
+    "message": "@nf-team/stylelint-config",
+    "description": "Navbar item with label @nf-team/stylelint-config"
+  },
+  "item.label.@nf-team/fetch": {
+    "message": "@nf-team/fetch",
+    "description": "Navbar item with label @nf-team/fetch"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

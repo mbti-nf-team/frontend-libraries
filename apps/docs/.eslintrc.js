@@ -10,6 +10,7 @@ module.exports = {
     'public/',
     'build/',
     'coverage/',
+    'typedoc-sidebar.cjs',
   ],
   extends: ['@nf-team/eslint-config'],
   overrides: [
