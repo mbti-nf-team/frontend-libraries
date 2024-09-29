@@ -1,5 +1,11 @@
 # @nft-team/eslint-config
 
+## 3.4.0
+
+### Minor Changes
+
+- af6c8c9: chore(@nf-team/eslint-config): css import는 가장 상단으로 import 되도록 정렬 룰 변경
+
 ## 3.3.0
 
 ### Minor Changes
