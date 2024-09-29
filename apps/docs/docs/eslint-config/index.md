@@ -67,8 +67,8 @@ This is the default value for the `groups` option:
   ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
   // Svg file imports.
   ['^.+\\.svg$'],
-  // Style imports.
-  ['^.+\\.s?css$'],
+  // Module css(scss) style imports.
+  ['^.+\\.module.s?css$'],
 ]
 ```
 
