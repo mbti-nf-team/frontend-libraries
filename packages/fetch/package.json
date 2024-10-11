@@ -1,6 +1,6 @@
 {
   "name": "@nf-team/fetch",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "nf-team fetch",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
