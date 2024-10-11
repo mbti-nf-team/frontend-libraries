@@ -11,11 +11,11 @@ export class FetchError extends Error {
 
 export type Method = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH';
 
-export interface FetchApiRequest<K = unknown> {
+export interface FetchApiRequest<K = unknown, B = unknown> {
   url: string;
   params?: K;
   method?: Method;
-  body?: unknown;
+  body?: B;
   timeout?: number;
   config?: Omit<RequestInit, 'method' | 'body'>;
 }
@@ -25,14 +25,18 @@ export const paramsSerializer = <T>(params: T): string => QueryString.stringify(
   indices: false,
 });
 
-async function fetchApi<T, K = unknown>({
+const defaultHeaders = {
+  'Content-Type': 'application/json',
+};
+
+async function fetchApi<T, K = unknown, B = unknown>({
   url,
   params,
   body,
   config = {},
   timeout = TIME_OUT,
   method = 'GET',
-}: FetchApiRequest<K>): Promise<T> {
+}: FetchApiRequest<K, B>): Promise<T> {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeout);
 
@@ -42,10 +46,10 @@ async function fetchApi<T, K = unknown>({
       body: body ? JSON.stringify(body) : undefined,
       method,
       signal: controller.signal,
-      headers: body ? {
-        'Content-Type': 'application/json',
+      headers: {
+        ...defaultHeaders,
         ...config.headers,
-      } : config.headers,
+      },
     });
 
     clearTimeout(id);

@@ -45,6 +45,9 @@ describe('fetchApi', () => {
 
   context('fetch가 성공한 경우', () => {
     const defaultUrl = '/test/test';
+    const defaultHeaders = {
+      'Content-Type': 'application/json',
+    };
 
     context('params가 없는 경우', () => {
       (window.fetch as jest.Mock) = jest.fn(() => Promise.resolve({
@@ -60,7 +63,7 @@ describe('fetchApi', () => {
         expect(response).toBe(mockResponse);
         expect(fetch).toBeCalledWith(defaultUrl, {
           body: undefined,
-          headers: undefined,
+          headers: defaultHeaders,
           method: 'GET',
           signal: expect.any(AbortSignal),
         });
@@ -79,7 +82,7 @@ describe('fetchApi', () => {
         expect(response).toBe(mockResponse);
         expect(fetch).toBeCalledWith(`${defaultUrl}?test=test`, {
           body: undefined,
-          headers: undefined,
+          headers: defaultHeaders,
           method: 'GET',
           signal: expect.any(AbortSignal),
         });
