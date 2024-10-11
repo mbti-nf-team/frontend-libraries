@@ -1,5 +1,11 @@
 # @nf-team/fetch
 
+## 1.2.0
+
+### Minor Changes
+
+- b3bd66e: refactor(@nf-team/fetch): fetch api의 body 제네릭 타입 추가
+
 ## 1.1.0
 
 ### Minor Changes
