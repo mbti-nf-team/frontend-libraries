@@ -8,6 +8,10 @@
   <img src="https://img.shields.io/github/license/mbti-nf-team/frontend-libraries?style=flat-square" />
 </a>
 
+<a href="https://codecov.io/gh/mbti-nf-team/frontend-libraries" > 
+ <img src="https://codecov.io/gh/mbti-nf-team/frontend-libraries/graph/badge.svg?token=Nor36frMZT"/> 
+ </a>
+
 ## 📚 Libraries
 - [@nf-team/react](https://github.com/mbti-nf-team/frontend-libraries/tree/main/packages/react)
   - [npm](https://www.npmjs.com/package/@nf-team/react)
