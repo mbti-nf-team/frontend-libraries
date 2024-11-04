@@ -1,5 +1,11 @@
 # docs
 
+## 7.2.1
+
+### Patch Changes
+
+- 8aca2a1: chore(docs): docusaurus 버전 업데이트
+
 ## 7.2.0
 
 ### Minor Changes
