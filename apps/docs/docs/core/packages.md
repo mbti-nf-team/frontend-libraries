@@ -2,10 +2,10 @@
 
 ## Functions
 
-- [checkEmpty](functions/checkEmpty.md)
-- [checkNumber](functions/checkNumber.md)
+- [createNumberArray](functions/createNumberArray.md)
 - [emptyAThenB](functions/emptyAThenB.md)
-- [generateArrayOfNumber](functions/generateArrayOfNumber.md)
+- [ensureArray](functions/ensureArray.md)
+- [getNumberOrDefault](functions/getNumberOrDefault.md)
+- [getStringOrDefault](functions/getStringOrDefault.md)
 - [isEmpty](functions/isEmpty.md)
-- [removeNullable](functions/removeNullable.md)
 - [trueOrFalse](functions/trueOrFalse.md)

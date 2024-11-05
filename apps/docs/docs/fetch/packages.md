@@ -1,4 +1,4 @@
-# @nf-team/fetch v1.1.0
+# @nf-team/fetch v1.2.0
 
 ## Classes
 

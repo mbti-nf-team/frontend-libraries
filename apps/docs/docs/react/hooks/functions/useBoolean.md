@@ -24,4 +24,4 @@ const [isOpen, openModal, closeModal, toggleModal] = useBoolean();
 
 ## Defined in
 
-[packages/react/src/hooks/useBoolean.ts:13](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/react/src/hooks/useBoolean.ts#L13)
+[packages/react/src/hooks/useBoolean.ts:13](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/react/src/hooks/useBoolean.ts#L13)
