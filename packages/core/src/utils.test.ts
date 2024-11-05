@@ -1,18 +1,18 @@
 import {
-  checkEmpty,
-  checkNumber,
+  createNumberArray,
   emptyAThenB,
-  generateArrayOfNumber,
+  ensureArray,
+  getNumberOrDefault,
+  getStringOrDefault,
   isEmpty,
-  removeNullable,
   trueOrFalse,
 } from './utils';
 
-describe('removeNullable', () => {
+describe('getStringOrDefault', () => {
   context('value가 null일 경우', () => {
     context('replacementValue가 존재하지 않는 경우', () => {
       it('빈 문자열을 반환해야만 한다', () => {
-        const result = removeNullable(null);
+        const result = getStringOrDefault(null);
 
         expect(result).toBe('');
       });
@@ -20,7 +20,7 @@ describe('removeNullable', () => {
 
     context('replacementValue가 존재하는 경우', () => {
       it('대체할 문자열(두 번째 인자)을 반환해야만 한다', () => {
-        const result = removeNullable(undefined, '-');
+        const result = getStringOrDefault(undefined, '-');
 
         expect(result).toBe('-');
       });
@@ -29,25 +29,33 @@ describe('removeNullable', () => {
 
   context('value가 null이 아닌 경우', () => {
     it('입력된 값이 반환되어야만 한다', () => {
-      const result = removeNullable('nana');
+      const result = getStringOrDefault('nana');
 
       expect(result).toBe('nana');
     });
   });
 });
 
-describe('checkNumber', () => {
+describe('getNumberOrDefault', () => {
   context('value가 null인 경우', () => {
     it('0을 반환해야 한다', () => {
-      const result = checkNumber(null);
+      const result = getNumberOrDefault(null);
 
       expect(result).toBe(0);
+    });
+
+    context('defaultValue가 존재하는 경우', () => {
+      it('defaultValue를 반환해야 한다', () => {
+        const result = getNumberOrDefault(null, 100);
+
+        expect(result).toBe(100);
+      });
     });
   });
 
   context('value가 null이 아닌 경우', () => {
     it('입력된 값이 반환되어야 한다', () => {
-      const result = checkNumber(100);
+      const result = getNumberOrDefault(100);
 
       expect(result).toBe(100);
     });
@@ -94,10 +102,10 @@ describe('trueOrFalse', () => {
   });
 });
 
-describe('checkEmpty', () => {
+describe('ensureArray', () => {
   context('value가 undefined이거나 빈 배열인 경우', () => {
     it('빈 배열을 반환해야만 한다', () => {
-      const result = checkEmpty();
+      const result = ensureArray();
 
       expect(result).toEqual([]);
     });
@@ -107,7 +115,7 @@ describe('checkEmpty', () => {
     const mockArray = ['test', 'test2'];
 
     it('입력된 값이 반환되어야 한다', () => {
-      const result = checkEmpty(mockArray);
+      const result = ensureArray(mockArray);
 
       expect(result).toEqual(mockArray);
     });
@@ -140,9 +148,9 @@ describe('isEmpty', () => {
   });
 });
 
-describe('generateArrayOfNumber', () => {
+describe('createNumberArray', () => {
   it('길이가 5인 배열을 반환해야만한다', () => {
-    const result = generateArrayOfNumber(5);
+    const result = createNumberArray(5);
 
     expect(result.length).toBe(5);
   });
