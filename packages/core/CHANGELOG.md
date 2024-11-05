@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 3.0.0
+
+### Major Changes
+
+- 3d495d8: refactor(@nf-team/core): 의미가 모호한 core 유틸 함수명 변경
+
 ## 2.1.0
 
 ### Minor Changes
