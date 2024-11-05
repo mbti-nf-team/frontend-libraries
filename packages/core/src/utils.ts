@@ -11,7 +11,7 @@
  * @param replacementValue - 두 번째 인자에 값이 존재하는 경우 첫 번째 인자가 `null` 또는 `undefined`인 경우 두번째 인자로 문자열 대체
  * @returns
  */
-export const removeNullable = (value?: string | null, replacementValue?: string): string => {
+export const getStringOrDefault = (value?: string | null, replacementValue?: string): string => {
   if (value) {
     return value;
   }
@@ -23,13 +23,10 @@ export const removeNullable = (value?: string | null, replacementValue?: string)
   return '';
 };
 
-export const checkNumber = (value?: number | null): number => {
-  if (typeof value === 'number') {
-    return value;
-  }
-
-  return 0;
-};
+export const getNumberOrDefault = (
+  value?: number | null,
+  defaultValue = 0,
+): number => value ?? defaultValue;
 
 export const emptyAThenB = (b: string, a?: string | null): string => a || b;
 
@@ -41,7 +38,7 @@ export const trueOrFalse = (value?: string | null | number | boolean): boolean =
   return true;
 };
 
-export const checkEmpty = <T>(value?: T[]): T[] => {
+export const ensureArray = <T>(value?: T[]): T[] => {
   if (!value || !value.length) {
     return [];
   }
@@ -61,4 +58,4 @@ export const isEmpty = <T>(value?: T[]) => {
   return true;
 };
 
-export const generateArrayOfNumber = (length: number) => Array.from({ length }, (_, i) => i);
+export const createNumberArray = (length: number) => Array.from({ length }, (_, i) => i);

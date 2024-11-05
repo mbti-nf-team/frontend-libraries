@@ -1,18 +1,20 @@
-# Interface: FetchApiRequest\<K\>
+# Interface: FetchApiRequest\<K, B\>
 
 ## Type Parameters
 
 • **K** = `unknown`
 
+• **B** = `unknown`
+
 ## Properties
 
 ### body?
 
-> `optional` **body**: `unknown`
+> `optional` **body**: `B`
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L18)
+[packages/fetch/src/fetch.ts:18](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L18)
 
 ***
 
@@ -22,7 +24,7 @@
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L20)
+[packages/fetch/src/fetch.ts:20](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L20)
 
 ***
 
@@ -32,7 +34,7 @@
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L17)
+[packages/fetch/src/fetch.ts:17](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L17)
 
 ***
 
@@ -42,7 +44,7 @@
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:16](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L16)
+[packages/fetch/src/fetch.ts:16](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L16)
 
 ***
 
@@ -52,7 +54,7 @@
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:19](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L19)
+[packages/fetch/src/fetch.ts:19](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L19)
 
 ***
 
@@ -62,4 +64,4 @@
 
 #### Defined in
 
-[packages/fetch/src/fetch.ts:15](https://github.com/mbti-nf-team/frontend-libraries/blob/08b9d43288f72c3d793bb8f598c64f689d769c2e/packages/fetch/src/fetch.ts#L15)
+[packages/fetch/src/fetch.ts:15](https://github.com/mbti-nf-team/frontend-libraries/blob/3916286534b50dbdcab9c2145adbaa464419b886/packages/fetch/src/fetch.ts#L15)
