@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.7.2
+
+### Patch Changes
+
+- 7fb42c4: chore: @nf-team dependency 버전을 workspace로 따라가도록 변경
+
 ## 2.7.1
 
 ### Patch Changes

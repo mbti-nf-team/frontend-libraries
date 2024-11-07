@@ -1,5 +1,11 @@
 # @nft-team/core
 
+## 3.0.1
+
+### Patch Changes
+
+- 7fb42c4: chore: @nf-team dependency 버전을 workspace로 따라가도록 변경
+
 ## 3.0.0
 
 ### Major Changes

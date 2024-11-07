@@ -1,5 +1,11 @@
 # @nf-team/fetch
 
+## 1.2.1
+
+### Patch Changes
+
+- 7fb42c4: chore: @nf-team dependency 버전을 workspace로 따라가도록 변경
+
 ## 1.2.0
 
 ### Minor Changes
