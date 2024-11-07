@@ -1,6 +1,6 @@
 {
   "name": "@nf-team/core",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "nf-team 유틸 함수",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
