@@ -1,5 +1,11 @@
 # @nft-team/react
 
+## 2.7.3
+
+### Patch Changes
+
+- 77bd163: chore(@nf-team/react): peer dependencies에 react 19 추가
+
 ## 2.7.2
 
 ### Patch Changes
