@@ -54,8 +54,8 @@
     "typescript": "5.1.3"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19"
   },
   "publishConfig": {
     "access": "public"
